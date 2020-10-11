@@ -97,6 +97,8 @@ Based on features available in survey dataset, supervized machine learning algor
 
 ## 4. References
 
+* [ ] use consitant capitalisation in refernces. see [^2] which is different.
+
 [^1]: PIB Delhi. (2019). "Department of Animal Husbandry & Dairying
 releases 20th Livestock Census", 16 (Oct 2019).
 <https://pib.gov.in/PressReleasePage.aspx?PRID=1588304>
