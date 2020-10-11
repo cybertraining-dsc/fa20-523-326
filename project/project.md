@@ -7,7 +7,7 @@ Shahapurkar, Gangaprasad, [project.md](https://github.com/cybertraining-dsc/fa20
 
 ## Abstract
 
-* [ ] include a small abstract here
+* [ ] include a small abstract here. Abstracts can not have references.
 
 Contents
 
