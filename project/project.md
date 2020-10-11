@@ -1,19 +1,11 @@
-Team:
-=====
+# Analysis of Future of Buffalo Breeds and Milk Production growth in India
 
 Shahapurkar, Gangaprasad
-------------------------
 
-Topic:
-======
-
-Analysis of Future of Buffalo Breeds and Milk Production growth in India
-------------------------------------------------------------------------
 
 **Keywords:** buffalo, milk production, livestock , argriculture, india
 
-Project Abstract:
-=================
+## Project Abstract
 
 Indian Agriculture sector has been playing a vital role in overall
 contribution to Indian Economy. Most of the rural community in the
@@ -59,8 +51,7 @@ on the past and current research seen in this area
     increased by approximately 1.49% annually, by 1.53% in India, 1.45%
     in Asia and 2.67% in the rest of the world.
 
-Dataset(s):
-===========
+## Dataset(s)
 
 The Animal Husbandry Statistics Division of the Department of Animal
 Husbandry & Dairying division (DAHD) is responsible for generation of
@@ -87,12 +78,11 @@ formulation in the livestock sector
 Apart from vital census data published by this group no other
 competitive data source was found.
 
-Software Component:
-===================
+## Software Component
+
 Based on features available in survey dataset, supervized machine learning algorithm will be devised and applied to get the predicted out labels being looked at as part of this project
 
-References:
-===========
+## References
 
 [^1] PIB Delhi. (2019). "Department of Animal Husbandry & Dairying
 releases 20th Livestock Census", 16 (Oct 2019).
