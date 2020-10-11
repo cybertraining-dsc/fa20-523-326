@@ -1,6 +1,6 @@
-# Analysis of Future of Buffalo Breeds and Milk Production growth in India
+# Analysis of Future of Buffalo Breeds and Milk Production Growth in India
 
-Shahapurkar, Gangaprasad
+Shahapurkar, Gangaprasad, [project.md](https://github.com/cybertraining-dsc/fa20-523-326/blob/master/project/project.md)
 
 
 **Keywords:** buffalo, milk production, livestock , argriculture, india
