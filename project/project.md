@@ -3,9 +3,22 @@
 Shahapurkar, Gangaprasad, [project.md](https://github.com/cybertraining-dsc/fa20-523-326/blob/master/project/project.md)
 
 
+{{% pageinfo %}}
+
+## Abstract
+
+* [ ] include a small abstract here
+
+Contents
+
+{{< table_of_contents >}}
+
+{{% /pageinfo %}}
+
+
 **Keywords:** buffalo, milk production, livestock , argriculture, india
 
-## Project Abstract
+## 1. Introduction
 
 Indian Agriculture sector has been playing a vital role in overall
 contribution to Indian Economy. Most of the rural community in the
@@ -51,7 +64,7 @@ on the past and current research seen in this area
     increased by approximately 1.49% annually, by 1.53% in India, 1.45%
     in Asia and 2.67% in the rest of the world.
 
-## Dataset(s)
+## 2. Datasets
 
 The Animal Husbandry Statistics Division of the Department of Animal
 Husbandry & Dairying division (DAHD) is responsible for generation of
@@ -78,11 +91,11 @@ formulation in the livestock sector
 Apart from vital census data published by this group no other
 competitive data source was found.
 
-## Software Component
+## 3. Software Component
 
 Based on features available in survey dataset, supervized machine learning algorithm will be devised and applied to get the predicted out labels being looked at as part of this project
 
-## References
+## 4. References
 
 [^1] PIB Delhi. (2019). "Department of Animal Husbandry & Dairying
 releases 20th Livestock Census", 16 (Oct 2019).
