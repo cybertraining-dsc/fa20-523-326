@@ -1,16 +1,3 @@
----
-title: |
-    **Project Proposal**
-
-    *Shahapurkar, Gangaprasad*
-
-    *Indiana University Bloomington*
-
-    *Bloomington, Indiana 47408*
-
-    *garashah\@iu.edu*
----
-
 Team:
 =====
 
@@ -21,6 +8,7 @@ Topic:
 ======
 
 Analysis of Future of Buffalo Breeds and Milk Production growth in India
+------------------------------------------------------------------------
 
 Project Abstract:
 =================
