@@ -1,0 +1,111 @@
+---
+title: |
+    **Project Proposal**
+
+    *Shahapurkar, Gangaprasad*
+
+    *Indiana University Bloomington*
+
+    *Bloomington, Indiana 47408*
+
+    *garashah\@iu.edu*
+---
+
+Team:
+=====
+
+Shahapurkar, Gangaprasad
+------------------------
+
+Topic:
+======
+
+Analysis of Future of Buffalo Breeds and Milk Production growth in India
+
+Project Abstract:
+=================
+
+Indian Agriculture sector has been playing a vital role in overall
+contribution to Indian Economy. Most of the rural community in the
+nation still make their livelihood on Dairy Framing or Agriculture
+farming. Dairy framing itself has been on its progressive stage from
+past few years and it is contributing to almost more than 25% of
+agriculture GDP.
+
+Livestock rearing has been integral part of rural community of the
+nation. Livestock production plays major role in life of farmers. It
+provides food, income, employment. It also does other contributions to
+the overall rural development of the nation. The output of livestock
+rearing such as milk, egg, meat, and wool provides everyday income to
+the farmers on daily basis, it provides nutrition to consumers and
+indirectly it helps in contributing to overall national economy and
+socio-economic development of the country. Livestock rearing sector is
+leveraging the economy in big way considering the growth we can see.
+
+Livestock population comprises of different species by age, sex and
+uses. This project takes a closer look and focus on the Buffalo breed in
+India and will attempt to estimate milk production for year 2020 based
+on the various features available in the dataset. The reason for
+focusing on milk production because of various aspect came across based
+on the past and current research seen in this area
+
+-   The production of milk and meat from buffaloes in Asian countries
+    over the last decades has shown a varying pattern: in countries such
+    as India, Sri Lanka, Pakistan and China
+
+-   Buffaloes are known to be better at converting poor-quality roughage
+    into milk and meat. They are reported to have a 5 percent higher
+    digestibility of crude fibre than high-yielding cows; and a 4-5
+    percent higher efficiency of utilization of metabolic energy for
+    milk production (Mudgal, 1988)
+
+-   India is the highest buffalo milk producer in the world
+
+-   The world buffalo population is estimated at 185.29 million, spread
+    in some 42 countries, of which 179.75 million (97%) are in Asia
+    (Source: Fao.org/stat 2008). India has 105.1 million and they
+    comprise approximately 56.7 percent of the total world buffalo
+    population. During the last 10 years, the world buffalo population
+    increased by approximately 1.49% annually, by 1.53% in India, 1.45%
+    in Asia and 2.67% in the rest of the world.
+
+Dataset(s):
+===========
+
+The Animal Husbandry Statistics Division of the Department of Animal
+Husbandry & Dairying division (DAHD) is responsible for generation of
+Animal Husbandry Statistics through the schemes of Livestock Census and
+Integrated Sample Surveys.
+
+It is mandate for this division
+
+-   Conducting quinquennial livestock census.
+
+-   Conducting annual sample survey through Integrated Sample Survey.
+
+-   Publishing of Annual estimates of production of milk, eggs, meat,
+    wool and other related Animal Husbandry Statistics based on
+    Integrated Sample Survey conducted through State and Union
+    Territories.
+
+The Survey methodology of Integrated Sample Survey is defined by Indian
+Agriculture Statistics Research Institute (IASRI). This is the only
+scheme through which considerable data, particularly on the production
+estimate of major livestock products, is being generated for policy
+formulation in the livestock sector
+
+Apart from vital census data published by this group no other
+competitive data source was found.
+
+References:
+===========
+
+\[1\] PIB Delhi. (2019). "Department of Animal Husbandry & Dairying
+releases 20th Livestock Census", 16 (Oct 2019).
+<https://pib.gov.in/PressReleasePage.aspx?PRID=1588304>
+
+\[2\] DEPARTMENT OF ANIMAL HUSBANDRY AND DAIRYING.
+<http://dahd.nic.in/about-us/divisions/statistics>
+
+\[3\] Alessandro, Nardone. (2010). "Buffalo Production and Research".
+Italian Journal of Animal Science. 5. 10.4081/ijas.2006.203.
