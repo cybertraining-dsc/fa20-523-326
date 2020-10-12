@@ -1,6 +1,6 @@
 # Analysis of Future of Buffalo Breeds and Milk Production Growth in India
 
-Gangaprasad Shahapurkar, fa20-523-326, [project.md](https://github.com/cybertraining-dsc/fa20-523-326/blob/master/project/project.md)
+Gangaprasad Shahapurkar, fa20-523-326, [Edit](https://github.com/cybertraining-dsc/fa20-523-326/blob/master/project/project.md)
 
 
 {{% pageinfo %}}
