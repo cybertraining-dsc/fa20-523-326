@@ -72,17 +72,17 @@ used in nursing profession and carries out non-nursing activities
 
 ### 1. Patients vital sign measurement and repetitive task(s)
 
-    While every country is fighting with COVID situation, front line
-    works are being under tremendous pressure, especially
-    doctors/nurses. AI solution has come to rescue, with a robot-based
-    solution that helps to collect samples for testing.
+While every country is fighting with COVID situation, front line
+works are being under tremendous pressure, especially
+doctors/nurses. AI solution has come to rescue, with a robot-based
+solution that helps to collect samples for testing.
 
 ### 2. Humanoid Robot
 
-    PALRO is a humanoid type robot which can communicate with human
-    [^5]. It has ability to remember up to 100 faces and communicate
-    through voice. It has proven effective when applied with some senior
-    patients with Dementia.
+PALRO is a humanoid type robot which can communicate with human
+[^5]. It has ability to remember up to 100 faces and communicate
+through voice. It has proven effective when applied with some senior
+patients with Dementia.
 
 ### 3. Patient Caretaker
 
@@ -128,7 +128,7 @@ better so that they help to alleviate staff shortages.
 
 ## References
 
-[^1]; Robert, Nancy PhD, MBA-DSS, BSN How artificial intelligence is
+[^1]: Robert, Nancy PhD, MBA-DSS, BSN How artificial intelligence is
 changing nursing, Nursing Management (Springhouse): September 2019 -
 Volume 50 - Issue 9 - p 30-39.
 https://doi.org/10.1097/01.NUMA.0000578988.56622.21
