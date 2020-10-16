@@ -97,13 +97,11 @@ Based on features available in survey dataset, supervized machine learning algor
 
 ## 4. References
 
-* [ ] use consitant capitalisation in refernces. see [^2] which is different.
-
 [^1]: PIB Delhi. (2019). "Department of Animal Husbandry & Dairying
 releases 20th Livestock Census", 16 (Oct 2019).
 <https://pib.gov.in/PressReleasePage.aspx?PRID=1588304>
 
-[^2]: DEPARTMENT OF ANIMAL HUSBANDRY AND DAIRYING.
+[^2]: Department of Animal Husbandry and Dairying.
 <http://dahd.nic.in/about-us/divisions/statistics>
 
 [^3]: Alessandro, Nardone. (2010). "Buffalo Production and Research".
