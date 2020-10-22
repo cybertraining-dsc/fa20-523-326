@@ -2,18 +2,10 @@
 
 Gangaprasad Shahapurkar, fa20-523-326, [Edit](https://github.com/cybertraining-dsc/fa20-523-326/blob/master/project/project.md)
 
-
-{{% pageinfo %}}
-
 ## Abstract
 
-* [ ] include a small abstract here. Abstracts can not have references.
+The water buffalo (Bubalus bubalis), also called domestic water buffalo or Asian water buffalo is a large bovid originating in the Indian subcontinent, Southeast Asia, and China. Today, it is also found in Europe, Australia, North America, South America and some African countries. Two extant types of water buffalo are recognized, based on morphological and behavioural criteria – the river buffalo of the Indian subcontinent and further west to the Balkans, Egypt, and Italy, and the swamp buffalo, found from Assam in the west through Southeast Asia to the Yangtze valley of China in the east. India has the highest level of milk production and consumption of all countries. The dairy industry in India is unique among large-scale milk producing countries in terms of its large share of buffalo milk.
 
-Contents
-
-{{< table_of_contents >}}
-
-{{% /pageinfo %}}
 
 
 **Keywords:** buffalo, milk production, livestock , argriculture, india
