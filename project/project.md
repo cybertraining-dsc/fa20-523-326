@@ -63,7 +63,7 @@ on the past and current research seen in this area
     increased by approximately 1.49% annually, by 1.53% in India, 1.45%
     in Asia and 2.67% in the rest of the world.
 
-## 2. Datasets
+## 2. Dataset
 
 The Animal Husbandry Statistics Division of the Department of Animal
 Husbandry & Dairying division (DAHD) is responsible for generation of
@@ -94,7 +94,23 @@ competitive data source was found.
 
 Based on features available in survey dataset, supervized machine learning algorithm will be devised and applied to get the predicted out labels being looked at as part of this project
 
-## 4. References
+## 4. Results
+
+TBD
+
+## 5. Discussion
+
+TBD
+
+## 6. Conclusion
+
+TBD
+
+## 7. Acknowledgements
+
+TBD
+
+## 8. References
 
 [^1]: PIB Delhi. (2019). "Department of Animal Husbandry & Dairying
 releases 20th Livestock Census", 16 (Oct 2019).
