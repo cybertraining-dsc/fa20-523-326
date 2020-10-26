@@ -108,7 +108,7 @@ TBD
 
 ## 7. Acknowledgements
 
-TBD
+The authors would like to thank Professor Geoffrey C. Fox for his teachings, Dr. Gregor von Laszewski for his support and suggestions and, teaching assistants who helped with all sort of technical assistance.
 
 ## 8. References
 
