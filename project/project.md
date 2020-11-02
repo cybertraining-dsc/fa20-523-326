@@ -85,14 +85,18 @@ The Survey methodology of Integrated Sample Survey is defined by Indian
 Agriculture Statistics Research Institute (IASRI). This is the only
 scheme through which considerable data, particularly on the production
 estimate of major livestock products, is being generated for policy
-formulation in the livestock sector
-
-Apart from vital census data published by this group no other
+formulation in the livestock sector.Apart from vital census data published by this group no other
 competitive data source was found.
 
-## 3. Software Component
+## 3. Methods
 
-Based on features available in survey dataset, supervized machine learning algorithm will be devised and applied to get the predicted out labels being looked at as part of this project
+Based on features available in survey dataset below software components and approach was taken into consideration for processing the data.
+
+### 3.1 Software Components
+Python is the primarly language used for processing the data part of the project.Data processing was taken from various phases like importing, EDA, Feature Engineering, Modelling and finally performing anaylysis of results
+
+### 3.2 Benchmarking 
+This is a simple modelling method and it is one of the two dominant approach of economic modelling to estimate the production behaviour [^4]. This method was used to estimate the potential of increase in milk yeild. In this approach milk yeild data of past 6 years was averaged. Top 10 states most yeild reported were compared with average of the whole sample and used to estimate the yeild for year 2020
 
 ## 4. Results
 
@@ -121,3 +125,5 @@ releases 20th Livestock Census", 16 (Oct 2019).
 
 [^3]: Alessandro, Nardone. (2010). "Buffalo Production and Research".
 Italian Journal of Animal Science. 5. 10.4081/ijas.2006.203.
+
+[^4]: Bogetoft P., Otto L. (2011) Stochastic Frontier Analysis SFA. In: Benchmarking with DEA, SFA, and R. International Series in Operations Research & Management Science, vol 157. Springer, New York, NY. https://doi.org/10.1007/978-1-4419-7961-2_7
