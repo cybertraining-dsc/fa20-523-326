@@ -104,11 +104,12 @@ TBD
 
 ## 5. Discussion
 
-TBD
+The biggest probabal limitation here was availability of good quality data. It would be possible to conduct the analyses at finer level. Our analyses had to be done state level rather than at district level or specific area. 
 
 ## 6. Conclusion
 
-TBD
+The analysis done above with the limited dataset showed that there are considerable gaps in avg yeild in per in-milk buffalo of state Punjab and Haryana compared to other states in top 10 list. Based on the data trends it appears possible to increase the production past current number attended. Though this would need to combine different methods and multiple strategies.
+  
 
 ## 7. Acknowledgements
 
