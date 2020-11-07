@@ -71,7 +71,7 @@ This project has been implemented in Python 3.7 version. Jupyter Notebook Applic
 
 
 | State Name | Murrah Buffalo Count | Total Buffalo Count | % Murrah Breed |
-----------------------------------------------------------------------------
+|------------|----------------------|---------------------|----------------|
 | UTTAR PRADESH |	20110852 | 30625334 | 65.67 |
 | RAJASTHAN | 6448563 | 12976095 | 49.70 |
 | ANDHRA PRADESH | 5227270 | 10622790 | 49.21 |
