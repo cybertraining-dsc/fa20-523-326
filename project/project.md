@@ -6,7 +6,7 @@ Gangaprasad Shahapurkar, fa20-523-326, [Edit](https://github.com/cybertraining-d
 
 ## Abstract
 
-The water buffalo (Bubalus bubalis), also called domestic water buffalo or Asian water buffalo is a large bovid originating in the Indian subcontinent, Southeast Asia, and China. Today, it is also found in Europe, Australia, North America, South America and some African countries. Two extant types of water buffalo are recognized, based on morphological and behavioural criteria – the river buffalo of the Indian subcontinent and further west to the Balkans, Egypt, and Italy, and the swamp buffalo, found from Assam in the west through Southeast Asia to the Yangtze valley of China in the east. India has the highest level of milk production and consumption of all countries. The dairy industry in India is unique among large-scale milk producing countries in terms of its large share of buffalo milk.
+Water buffalo (Bubalus bubalis), also called domestic water buffalo or Asian water buffalo is a large bovid originating in the Indian subcontinent, Southeast Asia, and China. Today, it is also found in Europe, Australia, North America, South America and some African countries. Two extant types of water buffalo are recognized, based on morphological and behavioural criteria – the river buffalo of the Indian subcontinent and further west to the Balkans, Egypt, and Italy, and the swamp buffalo, found from Assam in the west through Southeast Asia to the Yangtze valley of China in the east. India has the highest level of milk production and consumption of all countries. The dairy industry in India is unique among large-scale milk producing countries in terms of its large share of buffalo milk. The aim of this academic project is to study the livestock census data of buffalo breeds in India and their milk production using emphirical benchmarking analysis method at state level. Looking at small sample of data, our analysis indicates that we have been seeing increasing trends in past few years in livestock and milk production but there are considerable opportunities to increase production using combined interventions.   
 
 Contents
 
@@ -15,55 +15,27 @@ Contents
 {{% /pageinfo %}}
 
 
-**Keywords:** buffalo, milk production, livestock , argriculture, india
+**Keywords:** hid 326, i532, buffalo, milk production, livestock, benchmarking, in-milk yield, argriculture, india, analysis.
 
 ## 1. Introduction
 
-Indian Agriculture sector has been playing a vital role in overall
-contribution to Indian Economy. Most of the rural community in the
-nation still make their livelihood on Dairy Framing or Agriculture
-farming. Dairy framing itself has been on its progressive stage from
-past few years and it is contributing to almost more than 25% of
-agriculture GDP [^2].
+Indian Agriculture sector has been playing a vital role in overall contribution to Indian Economy. Most of the rural community in the nation still make their livelihood on Dairy Framing or Agriculture farming. Dairy framing itself has been on its progressive stage from past few years and it is contributing to almost more than 25% of agriculture GDP [^3]. Livestock rearing has been integral part of rural community of the nation and this sector is leveraging the economy in big way considering the growth we can see. Livestock production plays major role in life of farmers. It provides food, income, employment. It also does other contributions to the overall rural development of the nation. The output of livestock rearing such as milk, egg, meat, and wool provides everyday income to the farmers on daily basis, it provides nutrition to consumers and indirectly it helps in contributing to overall national economy and socio-economic development of the country.
 
-Livestock rearing has been integral part of rural community of the
-nation. Livestock production plays major role in life of farmers. It
-provides food, income, employment. It also does other contributions to
-the overall rural development of the nation. The output of livestock
-rearing such as milk, egg, meat, and wool provides everyday income to
-the farmers on daily basis, it provides nutrition to consumers and
-indirectly it helps in contributing to overall national economy and
-socio-economic development of the country. Livestock rearing sector is
-leveraging the economy in big way considering the growth we can see.
+![Milk Production World](https://github.com/cybertraining-dsc/fa20-523-326/tree/master/project/images/milk_production_world.png)
 
-Livestock population comprises of different species by age, sex and
-uses. This project takes a closer look and focus on the Buffalo breed in
-India and will attempt to estimate milk production for year 2020 based
-on the various features available in the dataset [^3]. The reason for
-focusing on milk production because of various aspect came across based
-on the past and current research seen in this area
+**Figure 1:** Production of Milk, whole fresh buffalo in World + (Total), Average 2013 - 2018
 
--   The production of milk and meat from buffaloes in Asian countries
-    over the last decades has shown a varying pattern: in countries such
-    as India, Sri Lanka, Pakistan and China
+![Milk Production Share](https://github.com/cybertraining-dsc/fa20-523-326/tree/master/project/images/milk_production_by_region.png)
 
--   Buffaloes are known to be better at converting poor-quality roughage
-    into milk and meat. They are reported to have a 5 percent higher
-    digestibility of crude fibre than high-yielding cows; and a 4-5
-    percent higher efficiency of utilization of metabolic energy for
-    milk production (Mudgal, 1988)
+**Figure 2:** Production share of Milk, whole fresh buffalo by region, Average 2013 - 2018
 
--   India is the highest buffalo milk producer in the world
+India is the highest buffalo milk producer in the world. The world buffalo population is estimated at 185.29 million, spread in some 42 countries, of which 179.75 million (97%) are in Asia (Source: Fao.org/stat 2008). India has 105.1 million and they comprise approximately 56.7 percent of the total world buffalo population. During the last 10 years, the world buffalo population increased by approximately 1.49% annually, by 1.53% in India, 1.45% in Asia and 2.67% in the rest of the world.
 
--   The world buffalo population is estimated at 185.29 million, spread
-    in some 42 countries, of which 179.75 million (97%) are in Asia
-    (Source: Fao.org/stat 2008). India has 105.1 million and they
-    comprise approximately 56.7 percent of the total world buffalo
-    population. During the last 10 years, the world buffalo population
-    increased by approximately 1.49% annually, by 1.53% in India, 1.45%
-    in Asia and 2.67% in the rest of the world.
+## 2. Background Research and Previous Work
 
-## 2. Dataset
+The production of milk and meat from buffaloes in Asian countries over the last decades has shown a varying pattern: in countries such as India, Sri Lanka, Pakistan and China. Buffaloes are known to be better at converting poor-quality roughage into milk and meat. They are reported to have a 5 percent higher digestibility of crude fibre than high-yielding cows; and a 4-5 percent higher efficiency of utilization of metabolic energy for milk production[^5].
+
+## 3. Choice of Datasets
 
 The Animal Husbandry Statistics Division of the Department of Animal
 Husbandry & Dairying division (DAHD) is responsible for generation of
@@ -88,43 +60,91 @@ estimate of major livestock products, is being generated for policy
 formulation in the livestock sector.Apart from vital census data published by this group no other
 competitive data source was found.
 
-## 3. Methods
+## 4. Methodology 
 
-Based on features available in survey dataset below software components and approach was taken into consideration for processing the data.
+### 4.1 Software Components
 
-### 3.1 Software Components
-Python is the primarly language used for processing the data part of the project.Data processing was taken from various phases like importing, EDA, Feature Engineering, Modelling and finally performing anaylysis of results
+This project has been implemented in Python 3.7 version. Jupyter Notebook Application was used to develop the code and produce a notebook document. Jupyter Notebook is a client server architecture based application which allows modification and execution of code through web browser. Jupyter Notebook can be installed locally and accessed through localhost brower or it can be installed on a remote machine and accessed via Internet [^10][^11].     
 
-### 3.2 Benchmarking 
+
+### 4.2 Data Procesing
+
+
+| State Name | Murrah Buffalo Count | Total Buffalo Count | % Murrah Breed |
+----------------------------------------------------------------------------
+| UTTAR PRADESH |	20110852 | 30625334 | 65.67 |
+| RAJASTHAN | 6448563 | 12976095 | 49.70 |
+| ANDHRA PRADESH | 5227270 | 10622790 | 49.21 |
+| HARYANA | 5011145 | 6085312 | 82.35 |
+| PUNJAB | 4116508 | 5159734 | 79.78 |
+| BIHAR | 2419952 | 7567233 | 31.98 |
+| MADHYA PRADESH | 1446078 | 8187989 | 17.66 | 
+| MAHARASHTRA | 986981 | 5594392 | 17.64 |
+| TAMIL NADU | 435634 | 780431 | 55.82 |
+| UTTARAKHAND | 378917 | 987775 | 38.36 |
+
+### 4.3 Modelling
+
+#### 4.3.1 Benchmarking 
 This is a simple modelling method and it is one of the two dominant approach of economic modelling to estimate the production behaviour [^4]. This method was used to estimate the potential of increase in milk yeild. In this approach milk yeild data of past 6 years was averaged. Top 10 states most yeild reported were compared with average of the whole sample and used to estimate the yeild for year 2020
 
-## 4. Results
+https://github.com/cybertraining-dsc/fa20-523-326/tree/master/project/images/murrah_top10_state.png
 
-TBD
+## 5. Results
 
-## 5. Discussion
+NOTE: This section will continue to be updated until project completion.
+
+## 6. Discussion
+
+NOTE: This section will continue to be updated until project completion.
 
 The biggest probabal limitation here was availability of good quality data. It would be possible to conduct the analyses at finer level. Our analyses had to be done state level rather than at district level or specific area. 
 
-## 6. Conclusion
+## 7. Conclusion
+
+NOTE: This section will continue to be updated until project completion.
 
 The analysis done above with the limited dataset showed that there are considerable gaps in avg yeild in per in-milk buffalo of state Punjab and Haryana compared to other states in top 10 list. Based on the data trends it appears possible to increase the production past current number attended. Though this would need to combine different methods and multiple strategies.
   
 
-## 7. Acknowledgements
+## 8. Acknowledgements
 
-The authors would like to thank Professor Geoffrey C. Fox for his teachings, Dr. Gregor von Laszewski for his support and suggestions and, teaching assistants who helped with all sort of technical assistance.
+The author would like to thank Dr. Gregor Von Laszewski, Dr. Geoffrey Fox, and the associate instructors in the *FA20-BL-ENGR-E534-11530: Big Data Applications* course (offered in the Fall 2020 semester at Indiana University, Bloomington) for their continued assistance and suggestions with regard to exploring this idea and also for their aid with preparing the various drafts of this article.
 
-## 8. References
+## 9. References
 
-[^1]: PIB Delhi. (2019). "Department of Animal Husbandry & Dairying
+[^1]: "Accessed: Oct 26, 2020". [Online]. Available: https://en.wikipedia.org/wiki/Water_buffalo 
+
+[^2]: "Accessed: Oct 26, 2020". [Online]. Available: https://en.wikipedia.org/wiki/List_of_water_buffalo_breeds
+
+[^3]: PIB Delhi. (2019). "Department of Animal Husbandry & Dairying
 releases 20th Livestock Census", 16 (Oct 2019).
 <https://pib.gov.in/PressReleasePage.aspx?PRID=1588304>
 
-[^2]: Department of Animal Husbandry and Dairying.
+[^4]: F.A.O. (2008). Food and Agriculture Organization. Rome Italy. STAT database.www.fao.org
+
+[^5]: Mudgal, V.D. (1988). "Proc. of the Second World Buffalo Congress, New Delhi, India", 12 to 17 Dec.:454.
+
+[^6]: Department of Animal Husbandry and Dairying.
 <http://dahd.nic.in/about-us/divisions/statistics>
 
-[^3]: Alessandro, Nardone. (2010). "Buffalo Production and Research".
+[^7]: Alessandro, Nardone. (2010). "Buffalo Production and Research".
 Italian Journal of Animal Science. 5. 10.4081/ijas.2006.203.
 
-[^4]: Bogetoft P., Otto L. (2011) Stochastic Frontier Analysis SFA. In: Benchmarking with DEA, SFA, and R. International Series in Operations Research & Management Science, vol 157. Springer, New York, NY. https://doi.org/10.1007/978-1-4419-7961-2_7
+[^8]: Bogetoft P., Otto L. (2011) Stochastic Frontier Analysis SFA. In: Benchmarking with DEA, SFA, and R. International Series in Operations Research & Management Science, vol 157. Springer, New York, NY. https://doi.org/10.1007/978-1-4419-7961-2_7
+
+[^9]: Aigner, Dennis (07/1977). "Formulation and estimation of stochastic frontier production function models". Journal of econometrics (0304-4076), 6 (1), p. 21. https://doi.org/10.1016/0304-4076(77)90052-5
+
+[^dadh-data]: Department of Animal Husbandry and Dairying, Accessed: Oct. 2020, <http://dadf.gov.in/sites/default/filess/20th%20Livestock%20census-2019%20All%20India%20Report.pdf>
+
+[^dadh-data]: Department of Animal Husbandry and Dairying, Accessed: Oct. 2020, <
+http://dadf.gov.in/sites/default/filess/Village%20and%20Ward%20Level%20Data%20%5BMale%20%26%20Female%5D.xlsx>
+
+[^dadh-data]: Department of Animal Husbandry and Dairying, Accessed: Oct. 2020, <
+http://dadf.gov.in/sites/default/filess/District-wise%20buffalo%20population%202019_0.pdf>
+
+[^fao-data]: Food and Agriculture Organization of United Nation, Accessed: Nov, 2020, <http://www.fao.org/faostat/en/#data>
+
+[^10]: Corey Schafer. Jupyter Notebook Tutorial: Introduction, Setup, and Walkthrough. (Sep. 22, 2016). Accessed: Nov. 07, 2020. [Online Video]. Available: https://www.youtube.com/watch?v=HW29067qVWk
+
+[^11]: *The Jupyter Notebook*. Jupyter Team. Accessed: Nov. 07, 2020. [Online]. Available: <https://jupyter-notebook.readthedocs.io/en/stable/notebook.html>
