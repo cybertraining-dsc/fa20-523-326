@@ -21,11 +21,13 @@ Contents
 
 Indian Agriculture sector has been playing a vital role in overall contribution to Indian Economy. Most of the rural community in the nation still make their livelihood on Dairy Framing or Agriculture farming. Dairy framing itself has been on its progressive stage from past few years and it is contributing to almost more than 25% of agriculture GDP [^3]. Livestock rearing has been integral part of rural community of the nation and this sector is leveraging the economy in big way considering the growth we can see. Livestock production plays major role in life of farmers. It provides food, income, employment. It also does other contributions to the overall rural development of the nation. The output of livestock rearing such as milk, egg, meat, and wool provides everyday income to the farmers on daily basis, it provides nutrition to consumers and indirectly it helps in contributing to overall national economy and socio-economic development of the country.
 
-![Milk Production World](https://github.com/cybertraining-dsc/fa20-523-326/tree/master/project/images/milk_production_world.png)
+![Milk Production World](https://github.com/cybertraining-dsc/fa20-523-326/raw/master/project/images/milk_production_world.png)
+
 
 **Figure 1:** Production of Milk, whole fresh buffalo in World + (Total), Average 2013 - 2018
 
-![Milk Production Share](https://github.com/cybertraining-dsc/fa20-523-326/tree/master/project/images/milk_production_by_region.png)
+![Milk Production Share](https://github.com/cybertraining-dsc/fa20-523-326/raw/master/project/images/milk_production_by_region.png)
+
 
 **Figure 2:** Production share of Milk, whole fresh buffalo by region, Average 2013 - 2018
 
