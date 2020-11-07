@@ -115,9 +115,9 @@ The author would like to thank Dr. Gregor Von Laszewski, Dr. Geoffrey Fox, and t
 
 ## 9. References
 
-[^1]: "Accessed: Oct 26, 2020". [Online]. Available: https://en.wikipedia.org/wiki/Water_buffalo 
+[^1]: "Accessed: Oct 26, 2020". [Online]. Available: <https://en.wikipedia.org/wiki/Water_buffalo> 
 
-[^2]: "Accessed: Oct 26, 2020". [Online]. Available: https://en.wikipedia.org/wiki/List_of_water_buffalo_breeds
+[^2]: "Accessed: Oct 26, 2020". [Online]. Available: <https://en.wikipedia.org/wiki/List_of_water_buffalo_breeds>
 
 [^3]: PIB Delhi. (2019). "Department of Animal Husbandry & Dairying
 releases 20th Livestock Census", 16 (Oct 2019).
@@ -139,14 +139,13 @@ Italian Journal of Animal Science. 5. 10.4081/ijas.2006.203.
 
 [^dadh-data]: Department of Animal Husbandry and Dairying, Accessed: Oct. 2020, <http://dadf.gov.in/sites/default/filess/20th%20Livestock%20census-2019%20All%20India%20Report.pdf>
 
-[^dadh-data]: Department of Animal Husbandry and Dairying, Accessed: Oct. 2020, <
-http://dadf.gov.in/sites/default/filess/Village%20and%20Ward%20Level%20Data%20%5BMale%20%26%20Female%5D.xlsx>
+[^dadh-data]: Department of Animal Husbandry and Dairying, Accessed: Oct. 2020, <http://dadf.gov.in/sites/default/filess/Village%20and%20Ward%20Level%20Data%20%5BMale%20%26%20Female%5D.xlsx>
 
 [^dadh-data]: Department of Animal Husbandry and Dairying, Accessed: Oct. 2020, <
 http://dadf.gov.in/sites/default/filess/District-wise%20buffalo%20population%202019_0.pdf>
 
 [^fao-data]: Food and Agriculture Organization of United Nation, Accessed: Nov, 2020, <http://www.fao.org/faostat/en/#data>
 
-[^10]: Corey Schafer. Jupyter Notebook Tutorial: Introduction, Setup, and Walkthrough. (Sep. 22, 2016). Accessed: Nov. 07, 2020. [Online Video]. Available: https://www.youtube.com/watch?v=HW29067qVWk
+[^10]: Corey Schafer. Jupyter Notebook Tutorial: Introduction, Setup, and Walkthrough. (Sep. 22, 2016). Accessed: Nov. 07, 2020. [Online Video]. Available: <https://www.youtube.com/watch?v=HW29067qVWk>
 
 [^11]: *The Jupyter Notebook*. Jupyter Team. Accessed: Nov. 07, 2020. [Online]. Available: <https://jupyter-notebook.readthedocs.io/en/stable/notebook.html>
