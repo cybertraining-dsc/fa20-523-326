@@ -33,42 +33,42 @@ India is the highest buffalo milk producer in the world. The world buffalo popul
 
 ## 2. Background Research and Previous Work
 
-The production of milk and meat from buffaloes in Asian countries over the last decades has shown a varying pattern: in countries such as India, Sri Lanka, Pakistan and China. Buffaloes are known to be better at converting poor-quality roughage into milk and meat. They are reported to have a 5 percent higher digestibility of crude fibre than high-yielding cows; and a 4-5 percent higher efficiency of utilization of metabolic energy for milk production[^5].
+The production of milk and meat from buffaloes in Asian countries over the last decades has shown a varying pattern: in countries such as India, Sri Lanka, Pakistan and China. Buffaloes are known to be better at converting poor-quality roughage into milk and meat. They are reported to have a 5 percent higher digestibility of crude fibre than high-yielding cows; and a 4-5 percent higher efficiency of utilization of metabolic energy for milk production [^5].
 
 ## 3. Choice of Datasets
 
-The Animal Husbandry Statistics Division of the Department of Animal
-Husbandry & Dairying division (DAHD) is responsible for generation of
-Animal Husbandry Statistics through the schemes of Livestock Census and
-Integrated Sample Surveys [^1].
+Number of online literatures and datasets were checked to find out suitable dataset required for this project analysis. Below dataset were found promising:
 
-It is mandate for this division
+1. [DAHD Data](https://dahd.nic.in/about-us/divisions/statistics) [^6], [^14], [^15], [^16]
+2. [FAO Data](http://www.fao.org/faostat/en/#data) [^17]
+  
+The Animal Husbandry Statistics Division of the Department of Animal Husbandry & Dairying division (DAHD) is responsible for generation of
+Animal Husbandry Statistics through the schemes of Livestock Census and Integrated Sample Surveys [^3]. Survey is defined by Indian Agriculture Statistics Research Institute (IASRI) [^18]. This is the only scheme through which considerable data, particularly on the production estimate of major livestock products, is being generated for policy formulation in the livestock sector. It is mandate for this division to
 
--   Conducting quinquennial livestock census.
+-   Conduct quinquennial livestock census.
+-   Conduct annual sample survey through Integrated Sample Survey.
+-   Publish of annual estimates of production of milk, eggs, meat, wool and other related Animal Husbandry Statistics based on Integrated 	Sample Survey conducted through State and Union Territories.
 
--   Conducting annual sample survey through Integrated Sample Survey.
-
--   Publishing of Annual estimates of production of milk, eggs, meat,
-    wool and other related Animal Husbandry Statistics based on
-    Integrated Sample Survey conducted through State and Union
-    Territories.
-
-The Survey methodology of Integrated Sample Survey is defined by Indian
-Agriculture Statistics Research Institute (IASRI). This is the only
-scheme through which considerable data, particularly on the production
-estimate of major livestock products, is being generated for policy
-formulation in the livestock sector.Apart from vital census data published by this group no other
-competitive data source was found.
+Food and Agriculture Organization of United Nation (FAO) publishes world wide data on aspects of dairy farming which can also be visualized online with the options provided. Some of the data from this source was used to extract useful summary needed in analysis.
 
 ## 4. Methodology 
 
 ### 4.1 Software Components
 
-This project has been implemented in Python 3.7 version. Jupyter Notebook Application was used to develop the code and produce a notebook document. Jupyter Notebook is a client server architecture based application which allows modification and execution of code through web browser. Jupyter Notebook can be installed locally and accessed through localhost brower or it can be installed on a remote machine and accessed via Internet [^10][^11].     
+This project has been implemented in Python 3.7 version. Jupyter Notebook Application was used to develop the code and produce a notebook document. Jupyter Notebook is a client server architecture based application which allows modification and execution of code through web browser. Jupyter Notebook can be installed locally and accessed through localhost browser or it can be installed on a remote machine and accessed via Internet [^10], [^11].     
+
+Following python libraries were used in overall code development. Before running the code one must make sure that these libraries are installed.
+-   **Pandas** This is an high performence and easy to use library. It was used for data cleaning, data analysis, & data preperatin.
+-   **Numpy** Numerical Python or Numpy is the python core library used for scientific computing. Some of the basic functions were used in 		this project
+-   **Matplotlib** This is an comprehensive library used for static, animated and interactive visualization. 
+-   **OS** This is another standard library of Python which provides which provides miscellaneous operating system interface functions
+
+### 4.2 Data Processing
 
 
-### 4.2 Data Procesing
+![Murrah buffalo](https://github.com/cybertraining-dsc/fa20-523-326/tree/master/project/images/murrah_buffalo.jpeg)
 
+**Figure 3:** Murrah buffalo (Bubalus bubalis), globally famous local breed of Haryana, were exported to many nations [^12], [^13]
 
 | State Name | Murrah Buffalo Count | Total Buffalo Count | % Murrah Breed |
 ----------------------------------------------------------------------------
@@ -88,7 +88,9 @@ This project has been implemented in Python 3.7 version. Jupyter Notebook Applic
 #### 4.3.1 Benchmarking 
 This is a simple modelling method and it is one of the two dominant approach of economic modelling to estimate the production behaviour [^4]. This method was used to estimate the potential of increase in milk yeild. In this approach milk yeild data of past 6 years was averaged. Top 10 states most yeild reported were compared with average of the whole sample and used to estimate the yeild for year 2020
 
-https://github.com/cybertraining-dsc/fa20-523-326/tree/master/project/images/murrah_top10_state.png
+![TOP TWO States](https://github.com/cybertraining-dsc/fa20-523-326/tree/master/project/images/punjab_up_state.png)
+
+**Figure 4:** Top 3 types of buffalo breeds of Uttar Pradesh and Punjab
 
 ## 5. Results
 
@@ -117,34 +119,37 @@ The author would like to thank Dr. Gregor Von Laszewski, Dr. Geoffrey Fox, and t
 
 [^2]: "Accessed: Oct 26, 2020". [Online]. Available: https://en.wikipedia.org/wiki/List_of_water_buffalo_breeds
 
-[^3]: PIB Delhi. (2019). "Department of Animal Husbandry & Dairying
-releases 20th Livestock Census", 16 (Oct 2019).
+[^3]: PIB Delhi. (2019). "Department of Animal Husbandry & Dairying releases 20th Livestock Census", 16 (Oct 2019).
 <https://pib.gov.in/PressReleasePage.aspx?PRID=1588304>
 
 [^4]: F.A.O. (2008). Food and Agriculture Organization. Rome Italy. STAT database.www.fao.org
 
 [^5]: Mudgal, V.D. (1988). "Proc. of the Second World Buffalo Congress, New Delhi, India", 12 to 17 Dec.:454.
 
-[^6]: Department of Animal Husbandry and Dairying.
-<http://dahd.nic.in/about-us/divisions/statistics>
+[^6]: Department of Animal Husbandry and Dairying. <http://dahd.nic.in/about-us/divisions/statistics>
 
-[^7]: Alessandro, Nardone. (2010). "Buffalo Production and Research".
-Italian Journal of Animal Science. 5. 10.4081/ijas.2006.203.
+[^7]: Alessandro, Nardone. (2010). "Buffalo Production and Research". Italian Journal of Animal Science. 5. 10.4081/ijas.2006.203.
 
 [^8]: Bogetoft P., Otto L. (2011) Stochastic Frontier Analysis SFA. In: Benchmarking with DEA, SFA, and R. International Series in Operations Research & Management Science, vol 157. Springer, New York, NY. https://doi.org/10.1007/978-1-4419-7961-2_7
 
 [^9]: Aigner, Dennis (07/1977). "Formulation and estimation of stochastic frontier production function models". Journal of econometrics (0304-4076), 6 (1), p. 21. https://doi.org/10.1016/0304-4076(77)90052-5
 
-[^dadh-data]: Department of Animal Husbandry and Dairying, Accessed: Oct. 2020, <http://dadf.gov.in/sites/default/filess/20th%20Livestock%20census-2019%20All%20India%20Report.pdf>
-
-[^dadh-data]: Department of Animal Husbandry and Dairying, Accessed: Oct. 2020, <
-http://dadf.gov.in/sites/default/filess/Village%20and%20Ward%20Level%20Data%20%5BMale%20%26%20Female%5D.xlsx>
-
-[^dadh-data]: Department of Animal Husbandry and Dairying, Accessed: Oct. 2020, <
-http://dadf.gov.in/sites/default/filess/District-wise%20buffalo%20population%202019_0.pdf>
-
-[^fao-data]: Food and Agriculture Organization of United Nation, Accessed: Nov, 2020, <http://www.fao.org/faostat/en/#data>
-
 [^10]: Corey Schafer. Jupyter Notebook Tutorial: Introduction, Setup, and Walkthrough. (Sep. 22, 2016). Accessed: Nov. 07, 2020. [Online Video]. Available: https://www.youtube.com/watch?v=HW29067qVWk
 
 [^11]: *The Jupyter Notebook*. Jupyter Team. Accessed: Nov. 07, 2020. [Online]. Available: <https://jupyter-notebook.readthedocs.io/en/stable/notebook.html>
+
+[^12]: Kleomarlo. Own work, CC BY-SA 3.0. [Online]. Available: https://commons.wikimedia.org/w/index.php?curid=4349862
+
+[^13]: ICAR - Central Institute for Research on Buffaloes. https://cirb.res.in/
+
+[^14]: Department of Animal Husbandry and Dairying, Accessed: Oct. 2020, <http://dadf.gov.in/sites/default/filess/20th%20Livestock%20census-2019%20All%20India%20Report.pdf>
+
+[^15]: Department of Animal Husbandry and Dairying, Accessed: Oct. 2020, <
+http://dadf.gov.in/sites/default/filess/Village%20and%20Ward%20Level%20Data%20%5BMale%20%26%20Female%5D.xlsx>
+
+[^16]: Department of Animal Husbandry and Dairying, Accessed: Oct. 2020, <
+http://dadf.gov.in/sites/default/filess/District-wise%20buffalo%20population%202019_0.pdf>
+
+[^17]: FAO - Food and Agriculture Organization of United Nation, Accessed: Nov, 2020, <http://www.fao.org/faostat/en/#data>
+
+[^18]: IASRI - Indian Agriculture Statistics Research Institute. <https://iasri.icar.gov.in/>
