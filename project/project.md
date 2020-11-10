@@ -23,11 +23,9 @@ Indian Agriculture sector has been playing a vital role in overall contribution 
 
 ![Milk Production World](https://github.com/cybertraining-dsc/fa20-523-326/raw/master/project/images/milk_production_world.png)
 
-
 **Figure 1:** Production of Milk, whole fresh buffalo in World + (Total), Average 2013 - 2018
 
 ![Milk Production Share](https://github.com/cybertraining-dsc/fa20-523-326/raw/master/project/images/milk_production_by_region.png)
-
 
 **Figure 2:** Production share of Milk, whole fresh buffalo by region, Average 2013 - 2018
 
@@ -66,11 +64,36 @@ Following python libraries were used in overall code development. Before running
 -   **OS** This is another standard library of Python which provides which provides miscellaneous operating system interface functions
 
 ### 4.2 Data Processing
+The raw data retrived from the source was in excel format. The data was pre-processed and stored back in csv formaat for the purpose of this project to easily process it. This data set was further processed through various stages via EDA, feature engineering and Modelling
+
+#### 4.2.1 EDA 
+
+Preprossed dataset selected for this analysis contians information at state level. Below are the nature of the attributes in the dataset:
+
+- **State Name** Name each of the state in India. One record for each state
+- **Buffalo count** Total number of male and female buffalo. Data recorded for 14 types of buffalo breeds. One attribute for each type of female and male breed
+- **In Milk** Number of In-Milk animals per state (figures in 000 nos) recorded each year from 2013 to 2019. One attribute per year
+- **Yeild In-Milk** Yield per In-Milk animals per state (figures in kg/day) recorded each year from 2013 to 2019. One attribute per year
+- **Milk production** - Milk production per state (figures in 000 tones) recorded each year from 2013 to 2019. One attribute per year
+
+Livestock census shows that Uttar Pradesh is the state which reported more number buffalos compared to any other states in country. 
+
+![Milk Production Share](https://github.com/cybertraining-dsc/fa20-523-326/raw/master/project/images/top10states.png)
+
+**Figure 3:** Top 10 state with buffalo counts compared to others
+
+Apart from the total number of buffalo state wise, overall we can see more than 80 % of the buffalo breeds reported in census were female breeds 
+
+![Milk Production Share](https://github.com/cybertraining-dsc/fa20-523-326/raw/master/project/images/top10states.png)
+
+**Figure 4:** Percentage of Female vs Male buffalo reported
+
+#### 4.2.2 Feature Engineering
 
 
 ![Murrah buffalo](https://github.com/cybertraining-dsc/fa20-523-326/tree/master/project/images/murrah_buffalo.jpeg)
 
-**Figure 3:** Murrah buffalo (Bubalus bubalis), globally famous local breed of Haryana, were exported to many nations [^12], [^13]
+**Figure 4:** Murrah buffalo (Bubalus bubalis), globally famous local breed of Haryana, were exported to many nations [^12], [^13]
 
 | State Name | Murrah Buffalo Count | Total Buffalo Count | % Murrah Breed |
 |------------|----------------------|---------------------|----------------|
@@ -90,7 +113,7 @@ Following python libraries were used in overall code development. Before running
 #### 4.3.1 Benchmarking 
 This is a simple modelling method and it is one of the two dominant approach of economic modelling to estimate the production behaviour [^4]. This method was used to estimate the potential of increase in milk yeild. In this approach milk yeild data of past 6 years was averaged. Top 10 states most yeild reported were compared with average of the whole sample and used to estimate the yeild for year 2020
 
-![TOP TWO States](https://github.com/cybertraining-dsc/fa20-523-326/tree/master/project/images/punjab_up_state.png)
+![TOP TWO States](https://github.com/cybertraining-dsc/fa20-523-326/raw/master/project/images/punjab_up_state.png)
 
 **Figure 4:** Top 3 types of buffalo breeds of Uttar Pradesh and Punjab
 
@@ -155,3 +178,5 @@ http://dadf.gov.in/sites/default/filess/District-wise%20buffalo%20population%202
 [^17]: FAO - Food and Agriculture Organization of United Nation, Accessed: Nov, 2020, <http://www.fao.org/faostat/en/#data>
 
 [^18]: IASRI - Indian Agriculture Statistics Research Institute. <https://iasri.icar.gov.in/>
+
+[^19]: Bharathi Dairy Farm. http://www.bharathidairyfarm.com/about-murrah.php
