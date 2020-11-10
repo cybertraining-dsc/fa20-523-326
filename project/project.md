@@ -87,7 +87,7 @@ Livestock census shows that Uttar Pradesh is the state which reported more numbe
 
 Apart from the total number of buffalo state wise, overall we can see more than 80 % of the buffalo breeds reported in census were female breeds 
 
-![Milk Production Share](https://github.com/cybertraining-dsc/fa20-523-326/raw/master/project/images/top10states.png)
+![Milk Production Share](https://github.com/cybertraining-dsc/fa20-523-326/raw/master/project/images/buffaloshare.png)
 
 **Figure 4:** Percentage of Female vs Male buffalo reported
 
@@ -96,7 +96,7 @@ Apart from the total number of buffalo state wise, overall we can see more than 
 
 ![Murrah buffalo](https://github.com/cybertraining-dsc/fa20-523-326/raw/master/project/images/murrah_buffalo.jpeg)
 
-**Figure 4:** Murrah buffalo (Bubalus bubalis), globally famous local breed of Haryana, were exported to many nations [^12], [^13]
+**Figure 5:** Murrah buffalo (Bubalus bubalis), globally famous local breed of Haryana, were exported to many nations [^12], [^13]
 
 | State Name | Murrah Buffalo Count | Total Buffalo Count | % Murrah Breed |
 |------------|----------------------|---------------------|----------------|
