@@ -67,6 +67,7 @@ Following python libraries were used in overall code development. Before running
 -   **OS** This is another standard library of Python which provides which provides miscellaneous operating system interface functions
 
 ### 4.2 Data Processing
+
 The raw data retrived from the source was in excel format. The data was pre-processed and stored back in csv formaat for the purpose of this project to easily process it. This data set was further processed through various stages via EDA, feature engineering and Modelling
 
 #### 4.2.1 EDA 
@@ -114,6 +115,7 @@ Apart from the total number of buffalo state wise, overall we can see more than 
 ### 4.3 Modelling
 
 #### 4.3.1 Benchmarking 
+
 This is a simple modelling method and it is one of the two dominant approach of economic modelling to estimate the production behaviour [^4]. This method was used to estimate the potential of increase in milk yeild. In this approach milk yeild data of past 6 years was averaged. Top 10 states most yeild reported were compared with average of the whole sample and used to estimate the yeild for year 2020
 
 ![TOP TWO States](https://github.com/cybertraining-dsc/fa20-523-326/raw/master/project/images/punjab_up_state.png)
