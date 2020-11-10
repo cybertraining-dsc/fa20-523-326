@@ -94,7 +94,7 @@ Apart from the total number of buffalo state wise, overall we can see more than 
 #### 4.2.2 Feature Engineering
 
 
-![Murrah buffalo](https://github.com/cybertraining-dsc/fa20-523-326/tree/master/project/images/murrah_buffalo.jpeg)
+![Murrah buffalo](https://github.com/cybertraining-dsc/fa20-523-326/raw/master/project/images/murrah_buffalo.jpeg)
 
 **Figure 4:** Murrah buffalo (Bubalus bubalis), globally famous local breed of Haryana, were exported to many nations [^12], [^13]
 
@@ -118,7 +118,7 @@ This is a simple modelling method and it is one of the two dominant approach of 
 
 ![TOP TWO States](https://github.com/cybertraining-dsc/fa20-523-326/raw/master/project/images/punjab_up_state.png)
 
-**Figure 4:** Top 3 types of buffalo breeds of Uttar Pradesh and Punjab
+**Figure 5:** Top 3 types of buffalo breeds of Uttar Pradesh and Punjab
 
 ## 5. Results
 
