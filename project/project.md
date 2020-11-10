@@ -1,5 +1,8 @@
 # Analysis of Future of Buffalo Breeds and Milk Production Growth in India
 
+[![Check Report](https://github.com/cybertraining-dsc/fa20-523-326/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-326/actions)
+
+
 Gangaprasad Shahapurkar, fa20-523-326, [Edit](https://github.com/cybertraining-dsc/fa20-523-326/blob/master/project/project.md)
 
 {{% pageinfo %}}
@@ -180,3 +183,4 @@ http://dadf.gov.in/sites/default/filess/District-wise%20buffalo%20population%202
 [^18]: IASRI - Indian Agriculture Statistics Research Institute. <https://iasri.icar.gov.in/>
 
 [^19]: Bharathi Dairy Farm. http://www.bharathidairyfarm.com/about-murrah.php
+
