@@ -145,14 +145,14 @@ The author would like to thank Dr. Gregor Von Laszewski, Dr. Geoffrey Fox, and t
 
 ## 9. References
 
-[^1]: "Accessed: Oct 26, 2020". [Online]. Available: <https://en.wikipedia.org/wiki/Water_buffalo> 
+[^1]: TEXT MISSING Accessed: Oct 26, 2020. [Online]. Available: <https://en.wikipedia.org/wiki/Water_buffalo> 
 
-[^2]: "Accessed: Oct 26, 2020". [Online]. Available: <https://en.wikipedia.org/wiki/List_of_water_buffalo_breeds>
+[^2]: TEXT MISSING. Accessed: Oct 26, 2020. [Online]. Available: <https://en.wikipedia.org/wiki/List_of_water_buffalo_breeds>
 
 [^3]: PIB Delhi. (2019). "Department of Animal Husbandry & Dairying releases 20th Livestock Census", 16 (Oct 2019).
 <https://pib.gov.in/PressReleasePage.aspx?PRID=1588304>
 
-[^4]: F.A.O. (2008). Food and Agriculture Organization. Rome Italy. STAT database.www.fao.org
+[^4]: F.A.O. (2008). Food and Agriculture Organization. Rome Italy. STAT <http://database.www.fao.org>
 
 [^5]: Mudgal, V.D. (1988). "Proc. of the Second World Buffalo Congress, New Delhi, India", 12 to 17 Dec.:454.
 
@@ -160,17 +160,17 @@ The author would like to thank Dr. Gregor Von Laszewski, Dr. Geoffrey Fox, and t
 
 [^7]: Alessandro, Nardone. (2010). "Buffalo Production and Research". Italian Journal of Animal Science. 5. 10.4081/ijas.2006.203.
 
-[^8]: Bogetoft P., Otto L. (2011) Stochastic Frontier Analysis SFA. In: Benchmarking with DEA, SFA, and R. International Series in Operations Research & Management Science, vol 157. Springer, New York, NY. https://doi.org/10.1007/978-1-4419-7961-2_7
+[^8]: Bogetoft P., Otto L. (2011) Stochastic Frontier Analysis SFA. In: Benchmarking with DEA, SFA, and R. International Series in Operations Research & Management Science, vol 157. Springer, New York, NY. <https://doi.org/10.1007/978-1-4419-7961-2_7>
 
-[^9]: Aigner, Dennis (07/1977). "Formulation and estimation of stochastic frontier production function models". Journal of econometrics (0304-4076), 6 (1), p. 21. https://doi.org/10.1016/0304-4076(77)90052-5
+[^9]: Aigner, Dennis (07/1977). "Formulation and estimation of stochastic frontier production function models". Journal of econometrics (0304-4076), 6 (1), p. 21. <https://doi.org/10.1016/0304-4076(77)90052-5>
 
-[^10]: Corey Schafer. Jupyter Notebook Tutorial: Introduction, Setup, and Walkthrough. (Sep. 22, 2016). Accessed: Nov. 07, 2020. [Online Video]. Available: https://www.youtube.com/watch?v=HW29067qVWk
+[^10]: Corey Schafer. Jupyter Notebook Tutorial: Introduction, Setup, and Walkthrough. (Sep. 22, 2016). Accessed: Nov. 07, 2020. [Online Video]. Available: <https://www.youtube.com/watch?v=HW29067qVWk>
 
 [^11]: *The Jupyter Notebook*. Jupyter Team. Accessed: Nov. 07, 2020. [Online]. Available: <https://jupyter-notebook.readthedocs.io/en/stable/notebook.html>
 
-[^12]: Kleomarlo. Own work, CC BY-SA 3.0. [Online]. Available: https://commons.wikimedia.org/w/index.php?curid=4349862
+[^12]: Kleomarlo. Own work, CC BY-SA 3.0. [Online]. Available: <https://commons.wikimedia.org/w/index.php?curid=4349862>
 
-[^13]: ICAR - Central Institute for Research on Buffaloes. https://cirb.res.in/
+[^13]: ICAR - Central Institute for Research on Buffaloes. <https://cirb.res.in/>
 
 [^14]: Department of Animal Husbandry and Dairying, Accessed: Oct. 2020, <http://dadf.gov.in/sites/default/filess/20th%20Livestock%20census-2019%20All%20India%20Report.pdf>
 
@@ -184,5 +184,5 @@ http://dadf.gov.in/sites/default/filess/District-wise%20buffalo%20population%202
 
 [^18]: IASRI - Indian Agriculture Statistics Research Institute. <https://iasri.icar.gov.in/>
 
-[^19]: Bharathi Dairy Farm. http://www.bharathidairyfarm.com/about-murrah.php
+[^19]: Bharathi Dairy Farm. <http://www.bharathidairyfarm.com/about-murrah.php>
 
