@@ -174,11 +174,9 @@ The author would like to thank Dr. Gregor Von Laszewski, Dr. Geoffrey Fox, and t
 
 [^14]: Department of Animal Husbandry and Dairying, Accessed: Oct. 2020, <http://dadf.gov.in/sites/default/filess/20th%20Livestock%20census-2019%20All%20India%20Report.pdf>
 
-[^15]: Department of Animal Husbandry and Dairying, Accessed: Oct. 2020, <
-http://dadf.gov.in/sites/default/filess/Village%20and%20Ward%20Level%20Data%20%5BMale%20%26%20Female%5D.xlsx>
+[^15]: Department of Animal Husbandry and Dairying, Accessed: Oct. 2020, <http://dadf.gov.in/sites/default/filess/Village%20and%20Ward%20Level%20Data%20%5BMale%20%26%20Female%5D.xlsx>
 
-[^16]: Department of Animal Husbandry and Dairying, Accessed: Oct. 2020, <
-http://dadf.gov.in/sites/default/filess/District-wise%20buffalo%20population%202019_0.pdf>
+[^16]: Department of Animal Husbandry and Dairying, Accessed: Oct. 2020, <http://dadf.gov.in/sites/default/filess/District-wise%20buffalo%20population%202019_0.pdf>
 
 [^17]: FAO - Food and Agriculture Organization of United Nation, Accessed: Nov, 2020, <http://www.fao.org/faostat/en/#data>
 
