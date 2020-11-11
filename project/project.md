@@ -9,7 +9,7 @@ Gangaprasad Shahapurkar, fa20-523-326, [Edit](https://github.com/cybertraining-d
 
 ## Abstract
 
-Water buffalo (Bubalus bubalis), also called domestic water buffalo or Asian water buffalo is a large bovid originating in the Indian subcontinent, Southeast Asia, and China. Today, it is also found in Europe, Australia, North America, South America and some African countries. Two extant types of water buffalo are recognized, based on morphological and behavioural criteria – the river buffalo of the Indian subcontinent and further west to the Balkans, Egypt, and Italy, and the swamp buffalo, found from Assam in the west through Southeast Asia to the Yangtze valley of China in the east. India has the highest level of milk production and consumption of all countries. The dairy industry in India is unique among large-scale milk producing countries in terms of its large share of buffalo milk. The aim of this academic project is to study the livestock census data of buffalo breeds in India and their milk production using emphirical benchmarking analysis method at state level. Looking at small sample of data, our analysis indicates that we have been seeing increasing trends in past few years in livestock and milk production but there are considerable opportunities to increase production using combined interventions.   
+Water buffalo (Bubalus bubalis) also called domestic water buffalo or Asian water buffalo is a large bovid originating in the Indian subcontinent, Southeast Asia, and China. Today, it is also found in Europe, Australia, North America, South America and some African countries. Two extant types of water buffalo are recognized, based on morphological and behavioural criteria. One is river buffalo of the Indian subcontinent and further west to the Balkans, Egypt, and Italy, and other one is swamp buffalo, found from Assam in the west through Southeast Asia to the Yangtze valley of China in the east. India has the highest level of milk production and consumption of all countries. The dairy industry in India is unique among large-scale milk producing countries in terms of its large share of buffalo milk. The aim of this academic project is to study the livestock census data of buffalo breeds in India and their milk production using emphirical benchmarking analysis method at state level. Looking at small sample of data, our analysis indicates that we have been seeing increasing trends in past few years in livestock and milk production but there are considerable opportunities to increase production using combined interventions.
 
 Contents
 
@@ -67,6 +67,7 @@ Following python libraries were used in overall code development. Before running
 -   **OS** This is another standard library of Python which provides which provides miscellaneous operating system interface functions
 
 ### 4.2 Data Processing
+
 The raw data retrived from the source was in excel format. The data was pre-processed and stored back in csv formaat for the purpose of this project to easily process it. This data set was further processed through various stages via EDA, feature engineering and Modelling
 
 #### 4.2.1 EDA 
@@ -114,6 +115,7 @@ Apart from the total number of buffalo state wise, overall we can see more than 
 ### 4.3 Modelling
 
 #### 4.3.1 Benchmarking 
+
 This is a simple modelling method and it is one of the two dominant approach of economic modelling to estimate the production behaviour [^4]. This method was used to estimate the potential of increase in milk yeild. In this approach milk yeild data of past 6 years was averaged. Top 10 states most yeild reported were compared with average of the whole sample and used to estimate the yeild for year 2020
 
 ![TOP TWO States](https://github.com/cybertraining-dsc/fa20-523-326/raw/master/project/images/punjab_up_state.png)
@@ -158,17 +160,17 @@ The author would like to thank Dr. Gregor Von Laszewski, Dr. Geoffrey Fox, and t
 
 [^7]: Alessandro, Nardone. (2010). "Buffalo Production and Research". Italian Journal of Animal Science. 5. 10.4081/ijas.2006.203.
 
-[^8]: Bogetoft P., Otto L. (2011) Stochastic Frontier Analysis SFA. In: Benchmarking with DEA, SFA, and R. International Series in Operations Research & Management Science, vol 157. Springer, New York, NY. https://doi.org/10.1007/978-1-4419-7961-2_7
+[^8]: Bogetoft P., Otto L. (2011) Stochastic Frontier Analysis SFA. In: Benchmarking with DEA, SFA, and R. International Series in Operations Research & Management Science, vol 157. Springer, New York, NY. <https://doi.org/10.1007/978-1-4419-7961-2_7>
 
-[^9]: Aigner, Dennis (07/1977). "Formulation and estimation of stochastic frontier production function models". Journal of econometrics (0304-4076), 6 (1), p. 21. https://doi.org/10.1016/0304-4076(77)90052-5
+[^9]: Aigner, Dennis (07/1977). "Formulation and estimation of stochastic frontier production function models". Journal of econometrics (0304-4076), 6 (1), p. 21. <https://doi.org/10.1016/0304-4076(77)90052-5>
 
-[^10]: Corey Schafer. Jupyter Notebook Tutorial: Introduction, Setup, and Walkthrough. (Sep. 22, 2016). Accessed: Nov. 07, 2020. [Online Video]. Available: https://www.youtube.com/watch?v=HW29067qVWk
+[^10]: Corey Schafer. Jupyter Notebook Tutorial: Introduction, Setup, and Walkthrough. (Sep. 22, 2016). Accessed: Nov. 07, 2020. [Online Video]. Available: <https://www.youtube.com/watch?v=HW29067qVWk>
 
 [^11]: *The Jupyter Notebook*. Jupyter Team. Accessed: Nov. 07, 2020. [Online]. Available: <https://jupyter-notebook.readthedocs.io/en/stable/notebook.html>
 
-[^12]: Kleomarlo. Own work, CC BY-SA 3.0. [Online]. Available: https://commons.wikimedia.org/w/index.php?curid=4349862
+[^12]: Kleomarlo. Own work, CC BY-SA 3.0. [Online]. Available: <https://commons.wikimedia.org/w/index.php?curid=4349862>
 
-[^13]: ICAR - Central Institute for Research on Buffaloes. https://cirb.res.in/
+[^13]: ICAR - Central Institute for Research on Buffaloes. <https://cirb.res.in/>
 
 [^14]: Department of Animal Husbandry and Dairying, Accessed: Oct. 2020, <http://dadf.gov.in/sites/default/filess/20th%20Livestock%20census-2019%20All%20India%20Report.pdf>
 
@@ -182,5 +184,5 @@ http://dadf.gov.in/sites/default/filess/District-wise%20buffalo%20population%202
 
 [^18]: IASRI - Indian Agriculture Statistics Research Institute. <https://iasri.icar.gov.in/>
 
-[^19]: Bharathi Dairy Farm. http://www.bharathidairyfarm.com/about-murrah.php
+[^19]: Bharathi Dairy Farm. <http://www.bharathidairyfarm.com/about-murrah.php>
 
