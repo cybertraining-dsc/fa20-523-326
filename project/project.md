@@ -145,14 +145,14 @@ The author would like to thank Dr. Gregor Von Laszewski, Dr. Geoffrey Fox, and t
 
 ## 9. References
 
-[^1]: "Accessed: Oct 26, 2020". [Online]. Available: <https://en.wikipedia.org/wiki/Water_buffalo> 
+[^1]: TEXT MISSING Accessed: Oct 26, 2020. [Online]. Available: <https://en.wikipedia.org/wiki/Water_buffalo> 
 
-[^2]: "Accessed: Oct 26, 2020". [Online]. Available: <https://en.wikipedia.org/wiki/List_of_water_buffalo_breeds>
+[^2]: TEXT MISSING. Accessed: Oct 26, 2020. [Online]. Available: <https://en.wikipedia.org/wiki/List_of_water_buffalo_breeds>
 
 [^3]: PIB Delhi. (2019). "Department of Animal Husbandry & Dairying releases 20th Livestock Census", 16 (Oct 2019).
 <https://pib.gov.in/PressReleasePage.aspx?PRID=1588304>
 
-[^4]: F.A.O. (2008). Food and Agriculture Organization. Rome Italy. STAT database.www.fao.org
+[^4]: F.A.O. (2008). Food and Agriculture Organization. Rome Italy. STAT <http://database.www.fao.org>
 
 [^5]: Mudgal, V.D. (1988). "Proc. of the Second World Buffalo Congress, New Delhi, India", 12 to 17 Dec.:454.
 
@@ -174,11 +174,9 @@ The author would like to thank Dr. Gregor Von Laszewski, Dr. Geoffrey Fox, and t
 
 [^14]: Department of Animal Husbandry and Dairying, Accessed: Oct. 2020, <http://dadf.gov.in/sites/default/filess/20th%20Livestock%20census-2019%20All%20India%20Report.pdf>
 
-[^15]: Department of Animal Husbandry and Dairying, Accessed: Oct. 2020, <
-http://dadf.gov.in/sites/default/filess/Village%20and%20Ward%20Level%20Data%20%5BMale%20%26%20Female%5D.xlsx>
+[^15]: Department of Animal Husbandry and Dairying, Accessed: Oct. 2020, <http://dadf.gov.in/sites/default/filess/Village%20and%20Ward%20Level%20Data%20%5BMale%20%26%20Female%5D.xlsx>
 
-[^16]: Department of Animal Husbandry and Dairying, Accessed: Oct. 2020, <
-http://dadf.gov.in/sites/default/filess/District-wise%20buffalo%20population%202019_0.pdf>
+[^16]: Department of Animal Husbandry and Dairying, Accessed: Oct. 2020, <http://dadf.gov.in/sites/default/filess/District-wise%20buffalo%20population%202019_0.pdf>
 
 [^17]: FAO - Food and Agriculture Organization of United Nation, Accessed: Nov, 2020, <http://www.fao.org/faostat/en/#data>
 
