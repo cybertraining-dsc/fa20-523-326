@@ -77,7 +77,7 @@ Preprossed dataset selected for this analysis contians information at state leve
 - **State Name** Name each of the state in India. One record for each state
 - **Buffalo count** Total number of male and female buffalo. Data recorded for 14 types of buffalo breeds. One attribute for each type of female and male breed
 - **In Milk** Number of In-Milk animals per state (figures in 000 nos) recorded each year from 2013 to 2019. One attribute per year
-- **Yeild In-Milk** Yield per In-Milk animals per state (figures in kg/day) recorded each year from 2013 to 2019. One attribute per year
+- **Yield In-Milk** Yield per In-Milk animals per state (figures in kg/day) recorded each year from 2013 to 2019. One attribute per year
 - **Milk production** - Milk production per state (figures in 000 tones) recorded each year from 2013 to 2019. One attribute per year
 
 Livestock census shows that Uttar Pradesh is the state which reported more number buffalos compared to any other states in country. 
@@ -94,10 +94,13 @@ Apart from the total number of buffalo state wise, overall we can see more than 
 
 #### 4.2.2 Feature Engineering
 
+Murrah bufflao shown in Figure 5 is most productive and globally famous breed [^19]. In addition, this breen is resistent to diseases and can adjust to various indian climate conditions. 
 
 ![Murrah buffalo](https://github.com/cybertraining-dsc/fa20-523-326/raw/master/project/images/murrah_buffalo.jpeg)
 
 **Figure 5:** Murrah buffalo (Bubalus bubalis), globally famous local breed of Haryana, were exported to many nations [^12], [^13]
+
+In Feature engineering multiple attributes were derived needed in modelling or for analysis. For survery data total number of Murrah buffalo count and their percentage share was derived and listed down in the Table 1 below. Table 1 lists top 10 states with murrah buffalo count. Though Uttar pradesh is top state in india in terms of total number of buffalos but percentage share of murrah buffalo is more in state of Punjab. 
 
 | State Name | Murrah Buffalo Count | Total Buffalo Count | % Murrah Breed |
 |------------|----------------------|---------------------|----------------|
@@ -112,42 +115,61 @@ Apart from the total number of buffalo state wise, overall we can see more than 
 | TAMIL NADU | 435634 | 780431 | 55.82 |
 | UTTARAKHAND | 378917 | 987775 | 38.36 |
 
+**Table 1:** Murrah buffalo percent share in top 10 state with buffalo count 
+
+Survey dataset had three primary attribute reported at state level. Data reported from 2013 to 2109 for in-milk animals, yield per in-milk and milk production per state were averaged for analysis purpose. Total number of buffalos per breed type were calculated reported in the dataset. Below was the list of breeds identified form dataset 
+
+- Banni
+- Bhadawari
+- Chilika
+- Jaffarabadi
+- Kalahandi
+- Marathwadi
+- Mehsana
+- Murrah
+- Nagpuri
+- Nili Ravi
+- Non Descript
+- Pandharpuri
+- Surti
+- Toda
+
 ### 4.3 Modelling
 
 #### 4.3.1 Benchmarking 
 
-This is a simple modelling method and it is one of the two dominant approach of economic modelling to estimate the production behaviour [^4]. This method was used to estimate the potential of increase in milk yeild. In this approach milk yeild data of past 6 years was averaged. Top 10 states most yeild reported were compared with average of the whole sample and used to estimate the yeild for year 2020
+This is a simple modelling method and it is one of the two dominant approach of economic modelling to estimate the production behaviour [^4]. This method was used to estimate the potential of increase in milk yield. In this approach milk yield data and milk production data of past 6 years was averaged. Top 10 states with most yield in-milk and milk production reported were compared with average of the whole sample. The comparision did not consider all possible characteristics for modelling. The problem analyzed as part of this project was relatively small. With the given small dataset only two parameters average yield in-milk and average milk production was analyzed. 
+
+We created two models one for analyzing average yield in-milk animals and second one was to analyze the average milk production. Data showed that Uttar pradesh had highest average milk production of 17810 tonnes compared to whole sample. Punjab state has had highest average yield per in-milk animals which as 8.39 kg per day. As we analyzed common attributes between two states that contributed to highest numbers in their respective area we noticed that both the states have highest number of Murrah breed buffalos compared to other breeds. Figure 5 below shows the share of top 3 breeds in both the state.  
 
 ![TOP TWO States](https://github.com/cybertraining-dsc/fa20-523-326/raw/master/project/images/punjab_up_state.png)
 
 **Figure 5:** Top 3 types of buffalo breeds of Uttar Pradesh and Punjab
 
+In this study we presentated result of the two models. Based on the results we provided guidelines for estimating yield for year 2020.
+
+
 ## 5. Results
 
-NOTE: This section will continue to be updated until project completion.
+It appears based on simple benchmarking analysis that it is possible to increase production past currently attainable yields. The current scale of the yield does indicate the leading states have best breeds of buffalos. Different methods of analyzing yield gaps can be combined to give estimates of attainable yields. It will also help to evaluate possible interventions to increase production and profits. 
 
 ## 6. Discussion
-
-NOTE: This section will continue to be updated until project completion.
 
 The biggest probabal limitation here was availability of good quality data. It would be possible to conduct the analyses at finer level. Our analyses had to be done state level rather than at district level or specific area. 
 
 ## 7. Conclusion
 
-NOTE: This section will continue to be updated until project completion.
-
-The analysis done above with the limited dataset showed that there are considerable gaps in avg yeild in per in-milk buffalo of state Punjab and Haryana compared to other states in top 10 list. Based on the data trends it appears possible to increase the production past current number attended. Though this would need to combine different methods and multiple strategies.
+The analysis done above with the limited dataset showed that there are considerable gaps in avg yield per in-milk buffalo of state Punjab and Haryana compared to other states in top 10 list. Based on the data trends it appears possible to increase the production past current number attended. Though this would need to combine different methods and multiple strategies.
   
-
 ## 8. Acknowledgements
 
 The author would like to thank Dr. Gregor Von Laszewski, Dr. Geoffrey Fox, and the associate instructors in the *FA20-BL-ENGR-E534-11530: Big Data Applications* course (offered in the Fall 2020 semester at Indiana University, Bloomington) for their continued assistance and suggestions with regard to exploring this idea and also for their aid with preparing the various drafts of this article.
 
 ## 9. References
 
-[^1]: TEXT MISSING Accessed: Oct 26, 2020. [Online]. Available: <https://en.wikipedia.org/wiki/Water_buffalo> 
+[^1]: Water Buffalo. Accessed: Oct 26, 2020. [Online]. Available: <https://en.wikipedia.org/wiki/Water_buffalo> 
 
-[^2]: TEXT MISSING. Accessed: Oct 26, 2020. [Online]. Available: <https://en.wikipedia.org/wiki/List_of_water_buffalo_breeds>
+[^2]: List of Water Buffalo Breeds. Accessed: Oct 26, 2020. [Online]. Available: <https://en.wikipedia.org/wiki/List_of_water_buffalo_breeds>
 
 [^3]: PIB Delhi. (2019). "Department of Animal Husbandry & Dairying releases 20th Livestock Census", 16 (Oct 2019).
 <https://pib.gov.in/PressReleasePage.aspx?PRID=1588304>
@@ -183,4 +205,3 @@ The author would like to thank Dr. Gregor Von Laszewski, Dr. Geoffrey Fox, and t
 [^18]: IASRI - Indian Agriculture Statistics Research Institute. <https://iasri.icar.gov.in/>
 
 [^19]: Bharathi Dairy Farm. <http://www.bharathidairyfarm.com/about-murrah.php>
-
