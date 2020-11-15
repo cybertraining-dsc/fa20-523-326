@@ -9,7 +9,7 @@ Gangaprasad Shahapurkar, fa20-523-326, [Edit](https://github.com/cybertraining-d
 
 ## Abstract
 
-Water buffalo (Bubalus bubalis) also called domestic water buffalo or Asian water buffalo is a large bovid originating in the Indian subcontinent, Southeast Asia, and China. Today, it is also found in Europe, Australia, North America, South America and some African countries. Two extant types of water buffalo are recognized, based on morphological and behavioural criteria. One is river buffalo of the Indian subcontinent and further west to the Balkans, Egypt, and Italy, and other one is swamp buffalo, found from Assam in the west through Southeast Asia to the Yangtze valley of China in the east. India has the highest level of milk production and consumption of all countries. The dairy industry in India is unique among large-scale milk producing countries in terms of its large share of buffalo milk. The aim of this academic project is to study the livestock census data of buffalo breeds in India and their milk production using emphirical benchmarking analysis method at state level. Looking at small sample of data, our analysis indicates that we have been seeing increasing trends in past few years in livestock and milk production but there are considerable opportunities to increase production using combined interventions.
+Water buffalo (**Bubalus bubalis**) also called domestic water buffalo or Asian water buffalo is a large bovid originating in the Indian subcontinent, Southeast Asia, and China. Today, it is also found in Europe, Australia, North America, South America and some African countries. Two extant types of water buffalo are recognized, based on morphological and behavioural criteria. One is river buffalo of the Indian subcontinent and further west to the Balkans, Egypt, and Italy, and other one is swamp buffalo, found from Assam in the west through Southeast Asia to the Yangtze valley of China in the east. India has the highest level of milk production and consumption of all countries. The dairy industry in India is unique among large-scale milk producing countries in terms of its large share of buffalo milk. The aim of this academic project is to study the livestock census data of buffalo breeds in India and their milk production using emphirical benchmarking analysis method at state level. Looking at small sample of data, our analysis indicates that we have been seeing increasing trends in past few years in livestock and milk production but there are considerable opportunities to increase production using combined interventions.
 
 Contents
 
@@ -22,7 +22,7 @@ Contents
 
 ## 1. Introduction
 
-Indian Agriculture sector has been playing a vital role in overall contribution to Indian Economy. Most of the rural community in the nation still make their livelihood on Dairy Framing or Agriculture farming. Dairy framing itself has been on its progressive stage from past few years and it is contributing to almost more than 25% of agriculture GDP [^3]. Livestock rearing has been integral part of rural community of the nation and this sector is leveraging the economy in big way considering the growth we can see. Livestock production plays major role in life of farmers. It provides food, income, employment. It also does other contributions to the overall rural development of the nation. The output of livestock rearing such as milk, egg, meat, and wool provides everyday income to the farmers on daily basis, it provides nutrition to consumers and indirectly it helps in contributing to overall national economy and socio-economic development of the country.
+Indian Agriculture sector has been playing a vital role in overall contribution to Indian Economy. Most of the rural community in the nation still make their livelihood on Dairy Farming or Agriculture Farming. Dairy Farming itself has been on its progressive stage from past few years and it is contributing to almost more than 25% of Agriculture Gross Domestic Product (GDP) [^3]. Livestock rearing has been integral part of rural community of the nation and this sector is leveraging the economy in big way considering the growth seen. Livestock production plays major role in life of farmers. It provides food, income, employment. It also does other contributions to the overall rural development of the nation. The output of livestock rearing such as milk, egg, meat, and wool provides everyday income to the farmers on daily basis, it provides nutrition to consumers and indirectly it helps in contributing to overall national economy and socio-economic development of the country.
 
 ![Milk Production World](https://github.com/cybertraining-dsc/fa20-523-326/raw/main/project/images/milk_production_world.png)
 
@@ -36,16 +36,16 @@ India is the highest buffalo milk producer in the world. The world buffalo popul
 
 ## 2. Background Research and Previous Work
 
-Production of milk and meat from buffaloes in Asian countries over the last decades has shown a varying pattern: in countries such as India, Sri Lanka, Pakistan and China. Buffaloes are known to be better at converting poor-quality roughage into milk and meat. They are reported to have 5 percent higher digestibility of crude fibre than high-yielding cows; and a 4-5 percent higher efficiency of utilization of metabolic energy for milk production [^5]. 
+Production of milk and meat from buffaloes in Asian countries over the last decades has shown a varying pattern: in countries such as India, Sri Lanka, Pakistan and China. Buffaloes are known to be better at converting poor-quality roughage into milk and meat. They are reported to have 5% higher digestibility of crude fibre than high-yielding cows; and a 4% to 5% higher efficiency of utilization of metabolic energy for milk production [^5], [^7]. 
 
-After studying literatures and researches it was noticed that there have been some research around to quantify livestock yield gaps. There is no standard methodology but multiple methods were combined for research. Researchers were able to calculate relative yield gaps for dairy production in India and Ethopia [^30]. There analysis where based on attainable yields (benchmarking and frontier analysis), and evaluate possible interventions to increase production (household modelling). It was noticed that large yield gaps exist for dairy production in both countries, and packages of interventions are required to bridge these gaps rather than single interventions. Partof the research was borrowed to analyze the limited dataset choosen as part of this project. 
+After studying literatures and researches it was noticed that there have been some research around to quantify livestock yield gaps. There is no standard methodology but multiple methods were combined for research. Researchers were able to calculate relative yield gaps for dairy production in India and Ethopia [^20]. There analysis where based on attainable yields (benchmarking and frontier analysis), and evaluate possible interventions to increase production (household modelling). It was noticed that large yield gaps exist for dairy production in both countries, and packages of interventions are required to bridge these gaps rather than single interventions. Part of the research was borrowed to analyze the limited dataset choosen as part of this project. 
 
 ## 3. Choice of Datasets
 
 Number of online literatures and datasets were checked to find out suitable dataset required for this project analysis. Below dataset were found promising:
 
 1. [DAHD Data](https://dahd.nic.in/about-us/divisions/statistics) [^6], [^14], [^15], [^16]
-2. [FAO Data](http://www.fao.org/faostat/en/#data) [^17]
+2. [FAO Data](http://www.fao.org/faostat/en/#data) [^4], [^17]
   
 The Animal Husbandry Statistics Division of the Department of Animal Husbandry & Dairying division (DAHD) is responsible for generation of
 Animal Husbandry Statistics through the schemes of Livestock Census and Integrated Sample Surveys [^3]. Survey is defined by Indian Agriculture Statistics Research Institute (IASRI) [^18]. This is the only scheme through which considerable data, particularly on the production estimate of major livestock products, is being generated for policy formulation in the livestock sector. It is mandate for this division to
@@ -70,7 +70,7 @@ Following python libraries were used in overall code development. Before running
 
 ### 4.2 Data Processing
 
-The raw data retrived from the source was in excel format. The data was pre-processed and stored back in csv formaat for the purpose of this project to easily process it. This data set was further processed through various stages via EDA, feature engineering and Modelling
+The raw data retrived from the source was in excel format. The data was pre-processed and stored back in csv format for the purpose of this project and to easily process it. This dataset was further processed through various stages via EDA, feature engineering and Modelling
 
 #### 4.2.1 EDA 
 
@@ -88,7 +88,7 @@ Livestock census shows that Uttar Pradesh is the state which reported more numbe
 
 **Figure 3:** Top 10 state with buffalo counts compared to others
 
-Apart from the total number of buffalo state wise, overall we can see more than 80 % of the buffalo breeds reported in census were female breeds 
+Apart from the total number of buffalo state wise, overall we can see more than 80% of the buffalo breeds reported in census were female breeds.
 
 ![Milk Production Share](https://github.com/cybertraining-dsc/fa20-523-326/raw/main/project/images/buffaloshare.png)
 
@@ -96,13 +96,13 @@ Apart from the total number of buffalo state wise, overall we can see more than 
 
 #### 4.2.2 Feature Engineering
 
-Murrah bufflao shown in Figure 5 is most productive and globally famous breed [^19]. In addition, this breen is resistent to diseases and can adjust to various indian climate conditions. 
+Murrah bufflao shown in Figure 5 is most productive and globally famous breed [^19], [^1]. In addition, this breed is resistent to diseases and can adjust to various indian climate conditions. 
 
 ![Murrah buffalo](https://github.com/cybertraining-dsc/fa20-523-326/raw/main/project/images/murrah_buffalo.jpeg)
 
 **Figure 5:** Murrah buffalo (Bubalus bubalis), globally famous local breed of Haryana, were exported to many nations [^12], [^13]
 
-In Feature engineering multiple attributes were derived needed in modelling or for analysis. For survery data total number of Murrah buffalo count and their percentage share was derived and listed in Table 1. Table 1 lists top 10 states with murrah buffalo count. Though Uttar pradesh is top state in india in terms of total number of buffalos but percentage share of murrah buffalo is more in state of Punjab. 
+In Feature engineering multiple attributes were derived needed in modelling or for analysis. For survery data total number of Murrah buffalo count and their percentage share were derived and listed in Table 1. Table 1 lists top 10 states with murrah buffalo count. Though Uttar pradesh is top state in india in terms of total number of buffalos but percentage share of murrah buffalo is more in state of Punjab. 
 
 **Table 1:** Murrah buffalo percent share in top 10 state with buffalo count 
 
@@ -119,7 +119,7 @@ In Feature engineering multiple attributes were derived needed in modelling or f
 | TAMIL NADU | 435634 | 780431 | 55.82 |
 | UTTARAKHAND | 378917 | 987775 | 38.36 |
 
-Survey dataset had three primary attribute reported at state level. Data reported from 2013 to 2109 for in-milk animals, yield per in-milk and milk production per state were averaged for analysis purpose. Total number of buffalos per breed type were calculated reported in the dataset. Below was the list of breeds identified form dataset 
+Survey dataset had three primary attribute reported at state level. Data reported from 2013 to 2019 for in-milk animals, yield per in-milk and milk production per state were averaged for analysis purpose. Total number of buffalos per breed type were calculated reported in the dataset. Following list of breeds were identified from dataset [^2].
 
 - Banni
 - Bhadawari
@@ -140,20 +140,19 @@ Survey dataset had three primary attribute reported at state level. Data reporte
 
 #### 4.3.1 Benchmarking 
 
-This is a simple modelling method and it is one of the two dominant approach of economic modelling to estimate the production behaviour [^4]. This method was used to estimate the potential of increase in milk yield. In this approach milk yield data and milk production data of past 6 years was averaged. Top 10 states with most yield in-milk and milk production reported were compared with average of the whole sample. The comparision did not consider all possible characteristics for modelling. The problem analyzed as part of this project was relatively small. With the given small dataset only two parameters average yield in-milk and average milk production was analyzed. 
+This is a simple modelling method and it is one of the two dominant approach of economic modelling to estimate the production behaviour [^8], [^9]. This method was used to analyze potential of increase in milk yield. In this approach milk yield data and milk production data of past 6 years was averaged. Top 10 states with most yield in-milk and milk production reported were compared with average of the whole sample. The comparision did not consider all possible characteristics for modelling. The problem analyzed as part of this project was relatively small. With the given small dataset only two parameters, average yield in-milk and average milk production was analyzed. 
 
-We created two models one for analyzing average yield in-milk animals and second one was to analyze the average milk production. Data showed that Uttar pradesh had highest average milk production of 17810 tonnes compared to whole sample. Punjab state has had highest average yield per in-milk animals which as 8.39 kg per day. As we analyzed common attributes between two states that contributed to highest numbers in their respective area we noticed that both the states have highest number of Murrah breed buffalos compared to other breeds. Figure 5 below shows the share of top 3 breeds in both the state.  
+We created two models one for analyzing average yield in-milk animals and second one was to analyze the average milk production. Data showed that Uttar pradesh had highest average milk production of 17810 tonnes compared to whole sample. Punjab state has had highest average yield per in-milk animals which as 8.39 kg per day. As we analyzed common attributes between two states that contributed to highest numbers in their respective area we noticed that both the states have highest number of Murrah breed buffalos compared to other breeds. Figure 5 shows the share of top 3 breeds in both the state.  
 
 ![TOP TWO States](https://github.com/cybertraining-dsc/fa20-523-326/raw/main/project/images/punjab_up_state.png)
 
 **Figure 5:** Top 3 types of buffalo breeds of Uttar Pradesh and Punjab
 
-In this study we presentated result of the two models. Based on the results we provided guidelines for estimating yield for year 2020.
+In this study we presentated result of the two models. Based on the results we were able to analyze trends of yield in-milk and milk production from 20th livestock census data.
 
 
 ## 5. Results
-
-It appears based on simple benchmarking analysis that it is possible to increase production past currently attainable yields. The current scale of the yield does indicate the leading states have best breeds of buffalos. Different methods of analyzing yield gaps can be combined to give estimates of attainable yields. It will also help to evaluate possible interventions to increase production and profits. 
+Based on simple benchmarking analysis it appears that it is possible to increase production past currently attainable yields. The current scale of the yield does indicate the leading states have best breeds of buffalos. Different methods of analyzing yield gaps can be combined to give estimates of attainable yields. It will also help to evaluate possible interventions to increase production and profits. 
 
 ## 6. Discussion
 
@@ -161,7 +160,7 @@ The biggest probabal limitation here was availability of good quality data. It w
 
 ## 7. Conclusion
 
-The analysis done above with the limited dataset showed that there are considerable gaps in avg yield per in-milk buffalo of state Punjab and Haryana compared to other states in top 10 list. Based on the data trends it appears possible to increase the production past current number attended. Though this would need to combine different methods and multiple strategies.
+The analysis done above with the limited dataset showed that there are considerable gaps in avg yield per in-milk buffalo of state Punjab and Haryana compared to other states in top 10 list. Both the state have larger share of Murrah breed buffalos. Based on the data trends it appears possible to increase the production past current number attended. Though this would need to combine different methods and multiple strategies.
   
 ## 8. Acknowledgements
 
