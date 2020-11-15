@@ -36,7 +36,9 @@ India is the highest buffalo milk producer in the world. The world buffalo popul
 
 ## 2. Background Research and Previous Work
 
-The production of milk and meat from buffaloes in Asian countries over the last decades has shown a varying pattern: in countries such as India, Sri Lanka, Pakistan and China. Buffaloes are known to be better at converting poor-quality roughage into milk and meat. They are reported to have a 5 percent higher digestibility of crude fibre than high-yielding cows; and a 4-5 percent higher efficiency of utilization of metabolic energy for milk production [^5].
+Production of milk and meat from buffaloes in Asian countries over the last decades has shown a varying pattern: in countries such as India, Sri Lanka, Pakistan and China. Buffaloes are known to be better at converting poor-quality roughage into milk and meat. They are reported to have 5 percent higher digestibility of crude fibre than high-yielding cows; and a 4-5 percent higher efficiency of utilization of metabolic energy for milk production [^5]. 
+
+After studying literatures and researches it was noticed that there have been some research around to quantify livestock yield gaps. There is no standard methodology but multiple methods were combined for research. Researchers were able to calculate relative yield gaps for dairy production in India and Ethopia [^30]. There analysis where based on attainable yields (benchmarking and frontier analysis), and evaluate possible interventions to increase production (household modelling). It was noticed that large yield gaps exist for dairy production in both countries, and packages of interventions are required to bridge these gaps rather than single interventions. Partof the research was borrowed to analyze the limited dataset choosen as part of this project. 
 
 ## 3. Choice of Datasets
 
@@ -100,7 +102,9 @@ Murrah bufflao shown in Figure 5 is most productive and globally famous breed [^
 
 **Figure 5:** Murrah buffalo (Bubalus bubalis), globally famous local breed of Haryana, were exported to many nations [^12], [^13]
 
-In Feature engineering multiple attributes were derived needed in modelling or for analysis. For survery data total number of Murrah buffalo count and their percentage share was derived and listed down in the Table 1 below. Table 1 lists top 10 states with murrah buffalo count. Though Uttar pradesh is top state in india in terms of total number of buffalos but percentage share of murrah buffalo is more in state of Punjab. 
+In Feature engineering multiple attributes were derived needed in modelling or for analysis. For survery data total number of Murrah buffalo count and their percentage share was derived and listed in Table 1. Table 1 lists top 10 states with murrah buffalo count. Though Uttar pradesh is top state in india in terms of total number of buffalos but percentage share of murrah buffalo is more in state of Punjab. 
+
+**Table 1:** Murrah buffalo percent share in top 10 state with buffalo count 
 
 | State Name | Murrah Buffalo Count | Total Buffalo Count | % Murrah Breed |
 |------------|----------------------|---------------------|----------------|
@@ -114,8 +118,6 @@ In Feature engineering multiple attributes were derived needed in modelling or f
 | MAHARASHTRA | 986981 | 5594392 | 17.64 |
 | TAMIL NADU | 435634 | 780431 | 55.82 |
 | UTTARAKHAND | 378917 | 987775 | 38.36 |
-
-**Table 1:** Murrah buffalo percent share in top 10 state with buffalo count 
 
 Survey dataset had three primary attribute reported at state level. Data reported from 2013 to 2109 for in-milk animals, yield per in-milk and milk production per state were averaged for analysis purpose. Total number of buffalos per breed type were calculated reported in the dataset. Below was the list of breeds identified form dataset 
 
@@ -205,3 +207,5 @@ The author would like to thank Dr. Gregor Von Laszewski, Dr. Geoffrey Fox, and t
 [^18]: IASRI - Indian Agriculture Statistics Research Institute. <https://iasri.icar.gov.in/>
 
 [^19]: Bharathi Dairy Farm. <http://www.bharathidairyfarm.com/about-murrah.php>
+
+[^20]: Mayberry, Dianne (07/2017). "Yield gap analyses to estimate attainable bovine milk yields and evaluate options to increase production in Ethiopia and India". Agricultural systems (0308-521X), 155 , p. 43.
