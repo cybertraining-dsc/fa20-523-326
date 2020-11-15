@@ -3,7 +3,7 @@
 [![Check Report](https://github.com/cybertraining-dsc/fa20-523-326/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-326/actions)
 
 
-Gangaprasad Shahapurkar, fa20-523-326, [Edit](https://github.com/cybertraining-dsc/fa20-523-326/blob/master/project/project.md)
+Gangaprasad Shahapurkar, fa20-523-326, [Edit](https://github.com/cybertraining-dsc/fa20-523-326/blob/main/project/project.md)
 
 {{% pageinfo %}}
 
@@ -24,11 +24,11 @@ Contents
 
 Indian Agriculture sector has been playing a vital role in overall contribution to Indian Economy. Most of the rural community in the nation still make their livelihood on Dairy Framing or Agriculture farming. Dairy framing itself has been on its progressive stage from past few years and it is contributing to almost more than 25% of agriculture GDP [^3]. Livestock rearing has been integral part of rural community of the nation and this sector is leveraging the economy in big way considering the growth we can see. Livestock production plays major role in life of farmers. It provides food, income, employment. It also does other contributions to the overall rural development of the nation. The output of livestock rearing such as milk, egg, meat, and wool provides everyday income to the farmers on daily basis, it provides nutrition to consumers and indirectly it helps in contributing to overall national economy and socio-economic development of the country.
 
-![Milk Production World](https://github.com/cybertraining-dsc/fa20-523-326/raw/master/project/images/milk_production_world.png)
+![Milk Production World](https://github.com/cybertraining-dsc/fa20-523-326/raw/main/project/images/milk_production_world.png)
 
 **Figure 1:** Production of Milk, whole fresh buffalo in World + (Total), Average 2013 - 2018
 
-![Milk Production Share](https://github.com/cybertraining-dsc/fa20-523-326/raw/master/project/images/milk_production_by_region.png)
+![Milk Production Share](https://github.com/cybertraining-dsc/fa20-523-326/raw/main/project/images/milk_production_by_region.png)
 
 **Figure 2:** Production share of Milk, whole fresh buffalo by region, Average 2013 - 2018
 
@@ -82,13 +82,13 @@ Preprossed dataset selected for this analysis contians information at state leve
 
 Livestock census shows that Uttar Pradesh is the state which reported more number buffalos compared to any other states in country. 
 
-![Milk Production Share](https://github.com/cybertraining-dsc/fa20-523-326/raw/master/project/images/top10states.png)
+![Milk Production Share](https://github.com/cybertraining-dsc/fa20-523-326/raw/main/project/images/top10states.png)
 
 **Figure 3:** Top 10 state with buffalo counts compared to others
 
 Apart from the total number of buffalo state wise, overall we can see more than 80 % of the buffalo breeds reported in census were female breeds 
 
-![Milk Production Share](https://github.com/cybertraining-dsc/fa20-523-326/raw/master/project/images/buffaloshare.png)
+![Milk Production Share](https://github.com/cybertraining-dsc/fa20-523-326/raw/main/project/images/buffaloshare.png)
 
 **Figure 4:** Percentage of Female vs Male buffalo reported
 
@@ -96,7 +96,7 @@ Apart from the total number of buffalo state wise, overall we can see more than 
 
 Murrah bufflao shown in Figure 5 is most productive and globally famous breed [^19]. In addition, this breen is resistent to diseases and can adjust to various indian climate conditions. 
 
-![Murrah buffalo](https://github.com/cybertraining-dsc/fa20-523-326/raw/master/project/images/murrah_buffalo.jpeg)
+![Murrah buffalo](https://github.com/cybertraining-dsc/fa20-523-326/raw/main/project/images/murrah_buffalo.jpeg)
 
 **Figure 5:** Murrah buffalo (Bubalus bubalis), globally famous local breed of Haryana, were exported to many nations [^12], [^13]
 
@@ -142,7 +142,7 @@ This is a simple modelling method and it is one of the two dominant approach of 
 
 We created two models one for analyzing average yield in-milk animals and second one was to analyze the average milk production. Data showed that Uttar pradesh had highest average milk production of 17810 tonnes compared to whole sample. Punjab state has had highest average yield per in-milk animals which as 8.39 kg per day. As we analyzed common attributes between two states that contributed to highest numbers in their respective area we noticed that both the states have highest number of Murrah breed buffalos compared to other breeds. Figure 5 below shows the share of top 3 breeds in both the state.  
 
-![TOP TWO States](https://github.com/cybertraining-dsc/fa20-523-326/raw/master/project/images/punjab_up_state.png)
+![TOP TWO States](https://github.com/cybertraining-dsc/fa20-523-326/raw/main/project/images/punjab_up_state.png)
 
 **Figure 5:** Top 3 types of buffalo breeds of Uttar Pradesh and Punjab
 
