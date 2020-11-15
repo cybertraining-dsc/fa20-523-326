@@ -152,6 +152,7 @@ In this study we presentated result of the two models. Based on the results we w
 
 
 ## 5. Results
+
 Based on simple benchmarking analysis it appears that it is possible to increase production past currently attainable yields. The current scale of the yield does indicate the leading states have best breeds of buffalos. Different methods of analyzing yield gaps can be combined to give estimates of attainable yields. It will also help to evaluate possible interventions to increase production and profits. 
 
 ## 6. Discussion
