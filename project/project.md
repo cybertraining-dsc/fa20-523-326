@@ -1,5 +1,7 @@
 # Analysis of Future of Buffalo Breeds and Milk Production Growth in India
 
+- [ ] introduce second image with piechart by country
+
 [![Check Report](https://github.com/cybertraining-dsc/fa20-523-326/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-326/actions)
 
 
