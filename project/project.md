@@ -1,6 +1,7 @@
 # Analysis of Future of Buffalo Breeds and Milk Production Growth in India
 
-- [ ] introduce second image with piechart by country
+- [ ] fig 1. introduce second image with piechart by country
+- [ ] fig 3. introduce second image that sorts it by number / population. explain why this coudl be important or not
 
 [![Check Report](https://github.com/cybertraining-dsc/fa20-523-326/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-326/actions)
 
