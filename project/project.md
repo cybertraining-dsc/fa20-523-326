@@ -3,9 +3,9 @@
 Please only remove these comments in your final paper and mark of those that you adress in the meanwhile with an X
 
 - [x] example of a task done
-- [ ] fig 1. introduce second image with piechart by country
-- [ ] fig 3. introduce second image that sorts it by number / population. explain why this coudl be important or not
-- [ ] section 4 starts with: This is a simple modelling method, iT does not say what *This* is
+- [x] fig 1. introduce second image with piechart by country
+- [x] fig 3. introduce second image that sorts it by number / population. explain why this coudl be important or not
+- [x] section 4 starts with: This is a simple modelling method, iT does not say what *This* is
 - [ ] please review the rules for using *the* and *a* which seems in some cases missing.
 - [ ] analysis does not show relationship to other socioeconomic factors and may benefit form a covariate analysis, such as population density, climate factors (dry vs wet, temperature, ...),  area of farm e.g. animal ustilization. If not done this shuld be explained as a limitation of the study.
 
@@ -18,7 +18,12 @@ Gangaprasad Shahapurkar, fa20-523-326, [Edit](https://github.com/cybertraining-d
 
 ## Abstract
 
-Water buffalo (**Bubalus bubalis**) also called domestic water buffalo or Asian water buffalo is a large bovid originating in the Indian subcontinent, Southeast Asia, and China. Today, it is also found in Europe, Australia, North America, South America and some African countries. Two extant types of water buffalo are recognized, based on morphological and behavioural criteria. One is river buffalo of the Indian subcontinent and further west to the Balkans, Egypt, and Italy, and other one is swamp buffalo, found from Assam in the west through Southeast Asia to the Yangtze valley of China in the east. India has the highest level of milk production and consumption of all countries. The dairy industry in India is unique among large-scale milk producing countries in terms of its large share of buffalo milk. The aim of this academic project is to study the livestock census data of buffalo breeds in India and their milk production using emphirical benchmarking analysis method at state level. Looking at small sample of data, our analysis indicates that we have been seeing increasing trends in past few years in livestock and milk production but there are considerable opportunities to increase production using combined interventions.
+Water buffalo (**Bubalus bubalis**) also called *Domestic Water Buffalo* or *Asian Water Buffalo* is a large bovid, originating in Indian subcontinent, Southeast Asia, and China. Today, it is also found in Europe, Australia, North America, South America and some African countries. Two extant types of water buffalo are recognized based on morphological and behavioural criteria:
+
+1. River Buffalo - Found in Indian subcontinent and further west to the Balkans, Egypt, and Italy
+2. Swamp Buffalo - Found from Assam in the west through Southeast Asia to the Yangtze valley of China in the east
+
+ India has highest level of milk production and consumption of all countries. The Dairy Industry in India is unique among large-scale milk producing countries in terms of its large share of buffalo milk. The aim of this academic project is to study the livestock census data of buffalo breeds in India and their milk production using Empirical Benchmarking analysis method at state level. Looking at small sample of data, our analysis indicates that we have been seeing increasing trends in past few years in livestock and milk production but there are considerable opportunities to increase production using combined interventions.
 
 Contents
 
@@ -33,6 +38,8 @@ Contents
 
 Indian Agriculture sector has been playing a vital role in overall contribution to Indian Economy. Most of the rural community in the nation still make their livelihood on Dairy Farming or Agriculture Farming. Dairy Farming itself has been on its progressive stage from past few years and it is contributing to almost more than 25% of Agriculture Gross Domestic Product (GDP) [^3]. Livestock rearing has been integral part of rural community of the nation and this sector is leveraging the economy in big way considering the growth seen. Livestock production plays major role in life of farmers. It provides food, income, employment. It also does other contributions to the overall rural development of the nation. The output of livestock rearing such as milk, egg, meat, and wool provides everyday income to the farmers on daily basis, it provides nutrition to consumers and indirectly it helps in contributing to overall national economy and socio-economic development of the country.
 
+Figure 1 shows world wide share of milk production from buffalo breed. Figure 2 highlights top 3 contributes to milk production. Figure 1 shows that India is the highest buffalo milk producer in the world. The world buffalo population is estimated at 185.29 million, spread in some 42 countries, of which 179.75 million (97%) are in Asia (Source: Fao.org/stat 2008). India has 105.1 million and they comprise approximately 56.7 percent of the total world buffalo population. During the last 10 years, the world buffalo population increased by approximately 1.49% annually, by 1.53% in India, 1.45% in Asia and 2.67% in the rest of the world.
+
 ![Milk Production World](https://github.com/cybertraining-dsc/fa20-523-326/raw/main/project/images/milk_production_world.png)
 
 **Figure 1:** Production of Milk, whole fresh buffalo in World + (Total), Average 2013 - 2018
@@ -40,8 +47,6 @@ Indian Agriculture sector has been playing a vital role in overall contribution 
 ![Milk Production Share](https://github.com/cybertraining-dsc/fa20-523-326/raw/main/project/images/milk_production_by_region.png)
 
 **Figure 2:** Production share of Milk, whole fresh buffalo by region, Average 2013 - 2018
-
-India is the highest buffalo milk producer in the world. The world buffalo population is estimated at 185.29 million, spread in some 42 countries, of which 179.75 million (97%) are in Asia (Source: Fao.org/stat 2008). India has 105.1 million and they comprise approximately 56.7 percent of the total world buffalo population. During the last 10 years, the world buffalo population increased by approximately 1.49% annually, by 1.53% in India, 1.45% in Asia and 2.67% in the rest of the world.
 
 ## 2. Background Research and Previous Work
 
@@ -150,7 +155,7 @@ Survey dataset had three primary attribute reported at state level. Data reporte
 
 #### 4.3.1 Benchmarking 
 
-This is a simple modelling method and it is one of the two dominant approach of economic modelling to estimate the production behaviour [^8], [^9]. This method was used to analyze potential of increase in milk yield. In this approach milk yield data and milk production data of past 6 years was averaged. Top 10 states with most yield in-milk and milk production reported were compared with average of the whole sample. The comparision did not consider all possible characteristics for modelling. The problem analyzed as part of this project was relatively small. With the given small dataset only two parameters, average yield in-milk and average milk production was analyzed. 
+There are two dominant approach of economic modelling to estimate the production behaviour - Empirical Benchmarking and Stochastic Frontier Analysis [^8], [^9]. Empirical Benchmarking is simple modelling method and it is one of the two dominant approach. This method was used to analyze past 6 years of data points available in the livestock dataset. In this approach milk yield data and milk production data of past 6 years was averaged. Top 10 states with most yield in-milk and milk production reported were compared with average of the whole sample. The comparision did not consider all possible characteristics for modelling. The problem analyzed as part of this project was relatively small. With the given small dataset only two parameters, average yield in-milk and average milk production was analyzed. 
 
 We created two models one for analyzing average yield in-milk animals and second one was to analyze the average milk production. Data showed that Uttar pradesh had highest average milk production of 17810 tonnes compared to whole sample. Punjab state has had highest average yield per in-milk animals which as 8.39 kg per day. As we analyzed common attributes between two states that contributed to highest numbers in their respective area we noticed that both the states have highest number of Murrah breed buffalos compared to other breeds. Figure 5 shows the share of top 3 breeds in both the state.  
 
