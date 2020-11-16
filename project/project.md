@@ -63,10 +63,11 @@ Food and Agriculture Organization of United Nation (FAO) publishes world wide da
 This project has been implemented in Python 3.7 version. Jupyter Notebook Application was used to develop the code and produce a notebook document. Jupyter Notebook is a client server architecture based application which allows modification and execution of code through web browser. Jupyter Notebook can be installed locally and accessed through localhost browser or it can be installed on a remote machine and accessed via Internet [^10], [^11].     
 
 Following python libraries were used in overall code development. Before running the code one must make sure that these libraries are installed.
--   **Pandas** This is an high performence and easy to use library. It was used for data cleaning, data analysis, & data preperatin.
--   **Numpy** Numerical Python or Numpy is the python core library used for scientific computing. Some of the basic functions were used in 		this project
--   **Matplotlib** This is an comprehensive library used for static, animated and interactive visualization. 
--   **OS** This is another standard library of Python which provides which provides miscellaneous operating system interface functions
+
+- **Pandas** This is an high performence and easy to use library. It was used for data cleaning, data analysis, & data preperatin.
+- **Numpy** Numerical Python or Numpy is the python core library used for scientific computing. Some of the basic functions were used in 		this project
+- **Matplotlib** This is an comprehensive library used for static, animated and interactive visualization. 
+- **OS** This is another standard library of Python which provides which provides miscellaneous operating system interface functions
 
 ### 4.2 Data Processing
 
