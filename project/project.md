@@ -1,9 +1,13 @@
 # Analysis of Future of Buffalo Breeds and Milk Production Growth in India
 
+Please only remove these comments in your final paper and mark of those that you adress in the meanwhile with an X
+
+- [x] example of a task done
 - [ ] fig 1. introduce second image with piechart by country
 - [ ] fig 3. introduce second image that sorts it by number / population. explain why this coudl be important or not
 - [ ] section 4 starts with: This is a simple modelling method, iT does not say what *This* is
 - [ ] please review the rules for using *the* and *a* which seems in some cases missing.
+- [ ] analysis does not show relationship to other socioeconomic factors and may benefit form a covariate analysis, such as population density, climate factors (dry vs wet, temperature, ...),  area of farm e.g. animal ustilization. If not done this shuld be explained as a limitation of the study.
 
 [![Check Report](https://github.com/cybertraining-dsc/fa20-523-326/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-326/actions)
 
