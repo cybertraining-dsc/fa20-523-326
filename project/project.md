@@ -2,6 +2,9 @@
 
 
 [![Check Report](https://github.com/cybertraining-dsc/fa20-523-326/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-326/actions)
+[![Status](https://github.com/cybertraining-dsc/fa20-523-326/workflows/Status/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-326/actions)
+Status: in progress
+
 
 
 Gangaprasad Shahapurkar, fa20-523-326, [Edit](https://github.com/cybertraining-dsc/fa20-523-326/blob/main/project/project.md)
