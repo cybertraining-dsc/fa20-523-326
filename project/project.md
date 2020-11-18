@@ -10,6 +10,9 @@ Please only remove these comments in your final paper and mark of those that you
 - [ ] analysis does not show relationship to other socioeconomic factors and may benefit form a covariate analysis, such as population density, climate factors (dry vs wet, temperature, ...),  area of farm e.g. animal ustilization. If not done this shuld be explained as a limitation of the study.
 
 [![Check Report](https://github.com/cybertraining-dsc/fa20-523-326/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-326/actions)
+[![Status](https://github.com/cybertraining-dsc/fa20-523-326/workflows/Status/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-326/actions)
+Status: in progress
+
 
 
 Gangaprasad Shahapurkar, fa20-523-326, [Edit](https://github.com/cybertraining-dsc/fa20-523-326/blob/main/project/project.md)
