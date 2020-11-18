@@ -27,7 +27,7 @@ Contents
 {{% /pageinfo %}}
 
 
-**Keywords:** hid 326, i532, buffalo, milk production, livestock, benchmarking, in-milk yield, agriculture, India, analysis.
+**Keywords:** hid 326, i532, buffalo, milk production, livestock, benchmarking, in-milk yield, agriculture, india, analysis
 
 ## 1. Introduction
 
@@ -45,9 +45,9 @@ The world buffalo population is estimated at 185.29 million, spread in some 42 c
 
 ## 2. Background Research and Previous Work
 
-Production of milk and meat from buffaloes in Asian countries over the last decades has shown a varying pattern: in countries such as India, Sri Lanka, Pakistan and China. Buffaloes are known to be better at converting poor-quality roughage into milk and meat. They are reported to have 5% higher digestibility of crude fibre than high-yielding cows; and a 4% to 5% higher efficiency of utilization of metabolic energy for milk production [^5], [^7]. 
+Production of milk and meat from buffaloes in Asian countries over the last decades has shown a varying pattern: in countries such as India, Sri Lanka, Pakistan and China. Buffaloes are known to be better at converting poor-quality roughage into milk and meat. They are reported to have 5% higher digestibility of crude fibre than high-yielding cows; and a 4% to 5% higher efficiency of utilization of metabolic energy for milk production [^5], [^7].
 
-After studying literatures and researches it was noticed that there has been some research around to quantify livestock yield gaps. There is no standard methodology, but multiple methods were combined for research. Researchers were able to calculate relative yield gaps for the dairy production in India and Ethiopia [^20]. There was analysis based on attainable yields using Empirical Benchmarking and Stochastic Frontier Analysis and evaluate possible interventions to increase production (household modelling). It was noticed that large yield gaps exist for dairy production in both countries, and packages of interventions are required to bridge these gaps rather than single interventions. Part of the research was borrowed to analyze the limited dataset chosen as part of this project. 
+After studying literatures and researches it was noticed that there has been some research around to quantify livestock yield gaps. There is no standard methodology, but multiple methods were combined for research. Researchers were able to calculate relative yield gaps for the dairy production in India and Ethiopia [^20]. There was analysis based on attainable yields using Empirical Benchmarking and Stochastic Frontier Analysis and evaluate possible interventions to increase production (household modelling). It was noticed that large yield gaps exist for dairy production in both countries, and packages of interventions are required to bridge these gaps rather than single interventions. Part of the research was borrowed to analyze the limited dataset chosen as part of this project.
 
 ## 3. Choice of Datasets
 
@@ -65,17 +65,17 @@ The Animal Husbandry Statistics Division of the Department of Animal Husbandry &
 
 Food and Agriculture Organization of United Nation (FAO) publishes worldwide data on the aspects of dairy farming which can also be visualized online with the options provided. Some of the data from this source was used to extract useful summary needed in analysis.
 
-## 4. Methodology 
+## 4. Methodology
 
 ### 4.1 Software Components
 
-This project has been implemented in Python 3.7 version. Jupyter Notebook application was used to develop the code and produce a notebook document. Jupyter Notebook is a Client-Server architecture-based application which allows modification and execution of code through web browser. Jupyter Notebook can be installed locally and accessed through localhost browser or it can be installed on a remote machine and accessed via Internet [^10], [^11].     
+This project has been implemented in Python 3.7 version. Jupyter Notebook application was used to develop the code and produce a notebook document. Jupyter Notebook is a Client-Server architecture-based application which allows modification and execution of code through web browser. Jupyter Notebook can be installed locally and accessed through localhost browser or it can be installed on a remote machine and accessed via Internet [^10], [^11].
 
 Following python libraries were used in overall code development. Before running the code, one must make sure that these libraries are installed.
 
 - **Pandas** This is a high performance and easy to use library. It was used for data cleaning, data analysis, & data preparation.
 - **NumPy** NumPy is python core library used for scientific computing. Some of the basic functions were used in this project.
-- **Matplotlib** This is a comprehensive library used for static, animated and interactive visualization. 
+- **Matplotlib** This is a comprehensive library used for static, animated and interactive visualization.
 - **OS** This is another standard library of Python which provides miscellaneous operating system interface functions.
 
 ### 4.2 Data Processing
@@ -92,7 +92,7 @@ Preprocessed dataset selected for this analysis contains information at the stat
 - **Yield per In-Milk animal:** Yield per In-Milk animals per state (figures in kg/day) recorded each year from 2013 to 2019. One attribute per year.
 - **Milk production:** - Milk production per state (figures in 000 tones) recorded each year from 2013 to 2019. One attribute per year.
 
-Figure 3 shows top 10 states from livestock census having total number of buffalo counts. Uttar Pradesh is the state which reported a greater number of buffalos compared to any other states in the country. 
+Figure 3 shows top 10 states from livestock census having total number of buffalo counts. Uttar Pradesh is the state which reported a greater number of buffalos compared to any other states in the country.
 
 ![Milk Production Share](https://github.com/cybertraining-dsc/fa20-523-326/raw/main/project/images/top10states.png)
 
@@ -106,15 +106,15 @@ Figure 3 shows top 10 states from livestock census having total number of buffal
 
 #### 4.2.2 Feature Engineering
 
-Murrah buffalo shown in Figure 5 is the most productive and globally famous breed [^19], [^1]. This breed is resistant to diseases and can adjust to various Indian climate conditions. 
+Murrah buffalo shown in Figure 5 is the most productive and globally famous breed [^19], [^1]. This breed is resistant to diseases and can adjust to various Indian climate conditions.
 
 ![Murrah buffalo](https://github.com/cybertraining-dsc/fa20-523-326/raw/main/project/images/murrah_buffalo.jpeg)
 
 **Figure 5:** Murrah buffalo (Bubalus bubalis), globally famous local breed of Haryana, were exported to many nations [^12], [^13]
 
-In Feature engineering multiple attributes were derived needed in modelling or for analysis. From survey data total number of Murrah buffalo count from top 10 states and their percentage share were derived and listed in Table 1. Though Uttar Pradesh is top state in India in terms of total number of buffalos but percentage share of Murrah buffalo is more in state of Punjab. 
+In Feature engineering multiple attributes were derived needed in modelling or for analysis. From survey data total number of Murrah buffalo count from top 10 states and their percentage share were derived and listed in Table 1. Though Uttar Pradesh is top state in India in terms of total number of buffalos but percentage share of Murrah buffalo is more in state of Punjab.
 
-**Table 1:** Murrah buffalo percent share in top 10 state with buffalo count 
+**Table 1:** Murrah buffalo percent share in top 10 state with buffalo count
 
 | State Name | Murrah Buffalo Count | Total Buffalo Count | % Murrah Breed |
 |------------|----------------------|---------------------|----------------|
@@ -148,11 +148,11 @@ Survey dataset had three primary attributes reported at the state level. Data re
 
 ### 4.3 Modelling
 
-#### 4.3.1 Benchmarking 
+#### 4.3.1 Benchmarking
 
-There are two dominant approach of economic modelling to estimate the production behavior - Empirical Benchmarking and Stochastic Frontier Analysis [^8], [^9]. Empirical Benchmarking is simple modelling method, and it is one of the two dominant approach. This method was used to analyze past 6 years of data points available in the livestock dataset. In this approach milk yield data and milk production data of past 6 years was averaged. Top 10 states with most yield in-milk and milk production reported were compared with average of the whole sample. The comparison did not consider all possible characteristics for modelling. The problem analyzed as part of this project was relatively small. With the given small dataset only two parameters, average yield in-milk and average milk production was analyzed. 
+There are two dominant approach of economic modelling to estimate the production behavior - Empirical Benchmarking and Stochastic Frontier Analysis [^8], [^9]. Empirical Benchmarking is simple modelling method, and it is one of the two dominant approach. This method was used to analyze past 6 years of data points available in the livestock dataset. In this approach milk yield data and milk production data of past 6 years was averaged. Top 10 states with most yield in-milk and milk production reported were compared with average of the whole sample. The comparison did not consider all possible characteristics for modelling. The problem analyzed as part of this project was relatively small. With the given small dataset only two parameters, average yield in-milk and average milk production was analyzed.
 
-We created two models, one for analyzing average yield in-milk animals and second one was to analyze the average milk production. Data showed that Uttar Pradesh had highest average milk production of 17810 tonne compared to whole sample. Punjab state had highest average yield per in-milk animals which as 8.39 kg per day. As we analyzed common attributes between two states that contributed to highest numbers in their respective area, we noticed that both the states have highest number of Murrah breed buffalos compared to other breeds. Figure 5 shows the share of top 3 breeds in both the state.  
+We created two models, one for analyzing average yield in-milk animals and second one was to analyze the average milk production. Data showed that Uttar Pradesh had highest average milk production of 17810 tonne compared to whole sample. Punjab state had highest average yield per in-milk animals which as 8.39 kg per day. As we analyzed common attributes between two states that contributed to highest numbers in their respective area, we noticed that both the states have highest number of Murrah breed buffalos compared to other breeds. Figure 5 shows the share of top 3 breeds in both the state.
 
 ![TOP TWO States](https://github.com/cybertraining-dsc/fa20-523-326/raw/main/project/images/punjab_up_state.png)
 
@@ -163,16 +163,16 @@ In this study we presented result of the two models analyzed. Based on the trend
 
 ## 5. Results
 
-Based on simple Empirical Benchmarking Analysis and trends noticed in data it appears that it is possible to increase production past currently attainable yields. The current scale of the yield does indicate that, leading states have best breeds of buffalos. Different methods of analyzing yield gaps can be combined to give estimates of attainable yields. It will also help to evaluate possible interventions to increase production and profits. 
+Based on simple Empirical Benchmarking Analysis and trends noticed in data it appears that it is possible to increase production past currently attainable yields. The current scale of the yield does indicate that, leading states have best breeds of buffalos. Different methods of analyzing yield gaps can be combined to give estimates of attainable yields. It will also help to evaluate possible interventions to increase production and profits.
 
 ## 6. Discussion
 
-The biggest probable limitation here was availability of good quality data. Correct relation of census data with other socioeconomic factors like population information, climate information, agriculture information could not be established as part of this project since the data would not be matched to satisfactory level and covariate analysis results would be inconsistent due to nature of rollup census data at state level. It would have been possible to conduct the analysis at finer level. Our analysis had to be done state level rather than at district level or specific area. 
+The biggest probable limitation here was availability of good quality data. Correct relation of census data with other socioeconomic factors like population information, climate information, agriculture information could not be established as part of this project since the data would not be matched to satisfactory level and covariate analysis results would be inconsistent due to nature of rollup census data at state level. It would have been possible to conduct the analysis at finer level. Our analysis had to be done state level rather than at district level or specific area.
 
 ## 7. Conclusion
 
 The analysis done above with the limited dataset showed that there are considerable gaps in the average yield per in-milk buffalo of state Punjab and Uttar Pradesh, compared to other states in top 10 list. These states have larger share of Murrah breed buffalos. Based on the data trends it appears that it is possible to increase the production past current attenable numbers. However, this would need to combine different methods and multiple strategies.
-  
+
 ## 8. Acknowledgements
 
 The author would like to thank Dr. Gregor Von Laszewski, Dr. Geoffrey Fox, and the associate instructors in the *FA20-BL-ENGR-E534-11530: Big Data Applications* course (offered in the Fall 2020 semester at Indiana University, Bloomington) for their continued assistance and suggestions with regard to exploring this idea and also for their aid with preparing the various drafts of this article.
@@ -183,7 +183,7 @@ The author would like to thank Dr. Gregor Von Laszewski, Dr. Geoffrey Fox, and t
 
 [^2]: List of Water Buffalo Breeds. Accessed: Oct 26, 2020. [Online]. Available: <https://en.wikipedia.org/wiki/List_of_water_buffalo_breeds>
 
-[^3]: PIB Delhi. (2019). "Department of Animal Husbandry & Dairying releases 20th Livestock Census", 16 (Oct 2019).
+[^3]: PIB Delhi. (2019). Department of Animal Husbandry & Dairying releases 20th Livestock Census, 16 (Oct 2019).
 <https://pib.gov.in/PressReleasePage.aspx?PRID=1588304>
 
 [^4]: F.A.O. (2008). Food and Agriculture Organization. Rome Italy. STAT <http://database.www.fao.org>
@@ -218,4 +218,4 @@ The author would like to thank Dr. Gregor Von Laszewski, Dr. Geoffrey Fox, and t
 
 [^19]: Bharathi Dairy Farm. <http://www.bharathidairyfarm.com/about-murrah.php>
 
-[^20]: Mayberry, Dianne (07/2017). "Yield gap analyses to estimate attainable bovine milk yields and evaluate options to increase production in Ethiopia and India". Agricultural systems (0308-521X), 155 , p. 43.
+[^20]: Mayberry, Dianne (07/2017). Yield gap analyses to estimate attainable bovine milk yields and evaluate options to increase production in Ethiopia and India. Agricultural systems (0308-521X), 155 , p. 43.
