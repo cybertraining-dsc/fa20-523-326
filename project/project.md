@@ -1,5 +1,8 @@
 # Analysis of Future of Buffalo Breeds and Milk Production Growth in India
 
+- [ ] histograms are too simple for analysis
+- [ ] Benchmark is part of result or its own section
+- [ ] we dont understand the need for a sepearte discussion section, why is it not part of result?
 
 [![Check Report](https://github.com/cybertraining-dsc/fa20-523-326/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-326/actions)
 [![Status](https://github.com/cybertraining-dsc/fa20-523-326/workflows/Status/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-326/actions)
@@ -147,6 +150,8 @@ Survey dataset had three primary attributes reported at the state level. Data re
 - Toda
 
 ### 4.3 Modelling
+
+- [ ] MISSING
 
 #### 4.3.1 Benchmarking
 
