@@ -3,6 +3,7 @@
 - [ ] histograms are too simple for analysis
 - [ ] Benchmark is part of result or its own section
 - [ ] we dont understand the need for a sepearte discussion section, why is it not part of result?
+- [ ] project does not consider population sizes, farming area, or other socioeconomic factors while exploring the data.
 
 [![Check Report](https://github.com/cybertraining-dsc/fa20-523-326/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-326/actions)
 [![Status](https://github.com/cybertraining-dsc/fa20-523-326/workflows/Status/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-326/actions)
