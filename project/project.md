@@ -171,7 +171,7 @@ Data showed that Uttar Pradesh had highest average milk production with in the t
 
 #### 4.3.1 Data Preperation
 
-Data from main dataset and supplementary dataset which is demographics data was merged into one dataset. This dataset was not labelled and it is small dataset. We considered average milk production as our target label for analysis. The rest of the features were divided based on categorical and numerical nature. Our dataset did not had any categorical features except State name which was used as index column so not futher processing was considered. All the features were of numerical nature and all the data points were not on same scale. Hence datapoints were normalized for further processing.    
+Data from main dataset and supplementary dataset which is demographics data was merged into one dataset. This dataset was not labelled and it is small dataset. We considered average milk production as our target label for analysis. The rest of the features were divided based on categorical and numerical nature. Our dataset did not had any categorical features except State name which was used as index column so not futher processing was considered. All the features were of numerical nature and all the data points were not on same scale. Hence datapoints were normalized for further processing.
 
 #### 4.3.2 Empirical Benchmarking Model & Covariance analysis
 
