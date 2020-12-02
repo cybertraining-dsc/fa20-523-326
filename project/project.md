@@ -1,9 +1,9 @@
 # Analysis of Future of Buffalo Breeds and Milk Production Growth in India
 
-- [ ] histograms are too simple for analysis
+- [] histograms are too simple for analysis
 - [x] Benchmark is part of result or its own section
 - [x] we dont understand the need for a sepearte discussion section, why is it not part of result?
-- [ ] project does not consider population sizes, farming area, or other socioeconomic factors while exploring the data.
+- [x] project does not consider population sizes, farming area, or other socioeconomic factors while exploring the data.
 
 [![Check Report](https://github.com/cybertraining-dsc/fa20-523-326/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-326/actions)
 [![Status](https://github.com/cybertraining-dsc/fa20-523-326/workflows/Status/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-326/actions)
@@ -40,11 +40,11 @@ The world buffalo population is estimated at 185.29 million, spread in some 42 c
 
 ![Milk Production World](https://github.com/cybertraining-dsc/fa20-523-326/raw/main/project/images/milk_production_world.png)
 
-**Figure 1:** Production of Milk, whole fresh buffalo in World + (Total), Average 2013 - 2018
+**Figure 1:** Production of Milk, whole fresh buffalo in World + (Total), Average 2013 - 2018 [^17]
 
 ![Milk Production Share](https://github.com/cybertraining-dsc/fa20-523-326/raw/main/project/images/milk_production_by_region.png)
 
-**Figure 2:** Production share of Milk, whole fresh buffalo by region, Average 2013 - 2018
+**Figure 2:** Production share of Milk, whole fresh buffalo by region, Average 2013 - 2018 [^17]
 
 ## 2. Background Research and Previous Work
 
@@ -72,7 +72,7 @@ Food and Agriculture Organization of United Nation (FAO) publishes worldwide dat
 
 Unique Identification Authority of India (UIDAI) was created with the objective to issue Unique Identification numbers (UID), named as **Aadhaar**, to all residents of India. Projected population data of 2020 was collected from this source. 
 
-In addition to above, other demographics information such as area of each state, district count was collected from wikipedia public sources.
+In addition to above, other demographics information such as area of each state, district count was extracted from OpenStreetMap [^22]. Agricultural zone information was extracted from report of Food and Nutrition Security Analysis, India, 2019 [^23].
 
 ## 4. Methodology
 
@@ -158,26 +158,39 @@ Survey dataset had three primary attributes reported at the state level. Data re
 - Surti
 - Toda
 
+Data showed that Uttar Pradesh had highest average milk production with in the top 10 states whereas Punjab state had highest average yield per in-milk animals. Figure 6 shows the share of top 3 breeds in both the state. Common attribute between two states would be seen as highest number of Murrah breed buffalos compared to other breeds. 
+
+![TOP TWO States](https://github.com/cybertraining-dsc/fa20-523-326/raw/main/project/images/punjab_up_state.png)
+
+**Figure 6:** Top 3 types of buffalo breeds of Uttar Pradesh and Punjab
+
+
 ### 4.3 Modelling
 
 - [x] MISSING
 
-#### 4.3.1 Empirical Benchmarking Model & Covariance analysis
+#### 4.3.1 Data Preperation
 
-There are two dominant approach of economic modelling to estimate the production behavior - Empirical Benchmarking and Stochastic Frontier Analysis [^8], [^9]. Empirical Benchmarking is simple modelling method, and it is one of the two dominant approach. This method was used to analyze past 6 years of data points available in the livestock dataset. In this approach milk yield data and milk production data of past 6 years was averaged. Top 10 states with most yield in-milk and milk production reported were compared with average of the whole sample. The comparison did not consider all possible characteristics for modelling. The problem analyzed as part of this project was relatively small. With the given small dataset only two parameters, average yield in-milk and average milk production was analyzed.
+Data from main dataset and supplementary dataset which is demographics data was merged into one dataset. This dataset was not labelled and it is small dataset. We considered average milk production as our target label for analysis. The rest of the features were divided based on categorical and numerical nature. Our dataset did not had any categorical features except State name which was used as index column so not futher processing was considered. All the features were of numerical nature and all the data points were not on same scale. Hence datapoints were normalized for further processing.    
 
-We created two models, one for analyzing average yield in-milk animals and second one was to analyze the average milk production. Data showed that Uttar Pradesh had highest average milk production of 17810 tonne compared to whole sample. Punjab state had highest average yield per in-milk animals which as 8.39 kg per day. As we analyzed common attributes between two states that contributed to highest numbers in their respective area, we noticed that both the states have highest number of Murrah breed buffalos compared to other breeds. Figure 5 shows the share of top 3 breeds in both the state.
+#### 4.3.2 Empirical Benchmarking Model & Covariance analysis
 
-![TOP TWO States](https://github.com/cybertraining-dsc/fa20-523-326/raw/main/project/images/punjab_up_state.png)
+There are two dominant approach of economic modelling to estimate the production behavior - Empirical Benchmarking and Stochastic Frontier Analysis [^8], [^9]. Empirical Benchmarking is simple modelling method, and it is one of the two dominant approach. This method was used to analyze past 6 years of data points available in the livestock dataset. In this approach milk production data of past 6 years was averaged. Top 10 states with most milk production reported were compared with average of the whole sample. The comparison did not consider all possible characteristics for modelling. The problem analyzed as part of this project was relatively small. 
 
-**Figure 5:** Top 3 types of buffalo breeds of Uttar Pradesh and Punjab
-
-In this study we presented result of the two models analyzed. Based on the trends of yield in-milk and milk production from 20th livestock census data we were able to analyze patterns.
-
+In addition Correlation analyses was done with various demographics features available in the dataset. 
 
 ## 5. Results
 
 Based on simple Empirical Benchmarking Analysis and trends noticed in data it appears that it is possible to increase production past currently attainable yields. The current scale of the yield does indicate that, leading states have best breeds of buffalos. Different methods of analyzing yield gaps can be combined to give estimates of attainable yields. It will also help to evaluate possible interventions to increase production and profits.
+
+![TOP 10 States](https://github.com/cybertraining-dsc/fa20-523-326/raw/main/project/images/avgmilkproduction.png)
+
+**Figure 6:** Average milk production top 10 state with benchmark
+
+
+![COV Analysis](https://github.com/cybertraining-dsc/fa20-523-326/raw/main/project/images/covariance.png)
+
+**Figure 7:** Covariance Heat Map
 
 The biggest probable limitation here was availability of good quality data. Correct relation of census data with other socioeconomic factors like population information, climate information, agriculture information could not be established as part of this project since the data would not be matched to satisfactory level and covariate analysis results would be inconsistent due to nature of rollup census data at state level. It would have been possible to conduct the analysis at finer level. Our analysis had to be done state level rather than at district level or specific area.
 
@@ -233,3 +246,7 @@ The author would like to thank Dr. Gregor Von Laszewski, Dr. Geoffrey Fox, and t
 [^20]: Mayberry, Dianne (07/2017). Yield gap analyses to estimate attainable bovine milk yields and evaluate options to increase production in Ethiopia and India. Agricultural systems (0308-521X), 155 , p. 43.
 
 [^21]: Unique Identification Authority of India, Accessed: Nov. 2020, <https://uidai.gov.in/images/state-wise-aadhaar-saturation.pdf>
+
+[^22]: OpenStreetMap, Accessed: Nov. 2020, <https://wiki.openstreetmap.org/wiki/Main_Page>
+
+[^23]: Food and Nutrition Security Analysis, India, 2019, Accessed: Nov. 2020, <http://mospi.nic.in/sites/default/files/publication_reports/document%281%29.pdf>
