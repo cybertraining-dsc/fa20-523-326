@@ -1,14 +1,13 @@
 # Analysis of Future of Buffalo Breeds and Milk Production Growth in India
 
 - [ ] histograms are too simple for analysis
-- [ ] Benchmark is part of result or its own section
-- [ ] we dont understand the need for a sepearte discussion section, why is it not part of result?
+- [x] Benchmark is part of result or its own section
+- [x] we dont understand the need for a sepearte discussion section, why is it not part of result?
 - [ ] project does not consider population sizes, farming area, or other socioeconomic factors while exploring the data.
 
 [![Check Report](https://github.com/cybertraining-dsc/fa20-523-326/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-326/actions)
 [![Status](https://github.com/cybertraining-dsc/fa20-523-326/workflows/Status/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-326/actions)
 Status: in progress
-
 
 
 Gangaprasad Shahapurkar, fa20-523-326, [Edit](https://github.com/cybertraining-dsc/fa20-523-326/blob/main/project/project.md)
@@ -69,6 +68,12 @@ The Animal Husbandry Statistics Division of the Department of Animal Husbandry &
 
 Food and Agriculture Organization of United Nation (FAO) publishes worldwide data on the aspects of dairy farming which can also be visualized online with the options provided. Some of the data from this source was used to extract useful summary needed in analysis.
 
+3. [UIDAI Data] (https://uidai.gov.in) [^21]
+
+Unique Identification Authority of India (UIDAI) was created with the objective to issue Unique Identification numbers (UID), named as **Aadhaar**, to all residents of India. Projected population data of 2020 was collected from this source. 
+
+In addition to above, other demographics information such as area of each state, district count was collected from wikipedia public sources.
+
 ## 4. Methodology
 
 ### 4.1 Software Components
@@ -81,6 +86,9 @@ Following python libraries were used in overall code development. Before running
 - **NumPy** NumPy is python core library used for scientific computing. Some of the basic functions were used in this project.
 - **Matplotlib** This is a comprehensive library used for static, animated and interactive visualization.
 - **OS** This is another standard library of Python which provides miscellaneous operating system interface functions.
+- **Scikit-learn (Sklearn)**  Robust library that provides efficient tools for machine learning and statistical modeling including.
+- **Seaborn** Python data visualization library based on matplotlib.
+
 
 ### 4.2 Data Processing
 
@@ -152,9 +160,9 @@ Survey dataset had three primary attributes reported at the state level. Data re
 
 ### 4.3 Modelling
 
-- [ ] MISSING
+- [x] MISSING
 
-#### 4.3.1 Benchmarking
+#### 4.3.1 Empirical Benchmarking Model & Covariance analysis
 
 There are two dominant approach of economic modelling to estimate the production behavior - Empirical Benchmarking and Stochastic Frontier Analysis [^8], [^9]. Empirical Benchmarking is simple modelling method, and it is one of the two dominant approach. This method was used to analyze past 6 years of data points available in the livestock dataset. In this approach milk yield data and milk production data of past 6 years was averaged. Top 10 states with most yield in-milk and milk production reported were compared with average of the whole sample. The comparison did not consider all possible characteristics for modelling. The problem analyzed as part of this project was relatively small. With the given small dataset only two parameters, average yield in-milk and average milk production was analyzed.
 
@@ -171,19 +179,17 @@ In this study we presented result of the two models analyzed. Based on the trend
 
 Based on simple Empirical Benchmarking Analysis and trends noticed in data it appears that it is possible to increase production past currently attainable yields. The current scale of the yield does indicate that, leading states have best breeds of buffalos. Different methods of analyzing yield gaps can be combined to give estimates of attainable yields. It will also help to evaluate possible interventions to increase production and profits.
 
-## 6. Discussion
-
 The biggest probable limitation here was availability of good quality data. Correct relation of census data with other socioeconomic factors like population information, climate information, agriculture information could not be established as part of this project since the data would not be matched to satisfactory level and covariate analysis results would be inconsistent due to nature of rollup census data at state level. It would have been possible to conduct the analysis at finer level. Our analysis had to be done state level rather than at district level or specific area.
 
-## 7. Conclusion
+## 6. Conclusion
 
 The analysis done above with the limited dataset showed that there are considerable gaps in the average yield per in-milk buffalo of state Punjab and Uttar Pradesh, compared to other states in top 10 list. These states have larger share of Murrah breed buffalos. Based on the data trends it appears that it is possible to increase the production past current attenable numbers. However, this would need to combine different methods and multiple strategies.
 
-## 8. Acknowledgements
+## 7. Acknowledgements
 
 The author would like to thank Dr. Gregor Von Laszewski, Dr. Geoffrey Fox, and the associate instructors in the *FA20-BL-ENGR-E534-11530: Big Data Applications* course (offered in the Fall 2020 semester at Indiana University, Bloomington) for their continued assistance and suggestions with regard to exploring this idea and also for their aid with preparing the various drafts of this article.
 
-## 9. References
+## 8. References
 
 [^1]: Water Buffalo. Accessed: Oct 26, 2020. [Online]. Available: <https://en.wikipedia.org/wiki/Water_buffalo> 
 
@@ -225,3 +231,5 @@ The author would like to thank Dr. Gregor Von Laszewski, Dr. Geoffrey Fox, and t
 [^19]: Bharathi Dairy Farm. <http://www.bharathidairyfarm.com/about-murrah.php>
 
 [^20]: Mayberry, Dianne (07/2017). Yield gap analyses to estimate attainable bovine milk yields and evaluate options to increase production in Ethiopia and India. Agricultural systems (0308-521X), 155 , p. 43.
+
+[^21]: Unique Identification Authority of India, Accessed: Nov. 2020, <https://uidai.gov.in/images/state-wise-aadhaar-saturation.pdf>
