@@ -1,16 +1,11 @@
 # Analysis of Future of Buffalo Breeds and Milk Production Growth in India
 
-- [] histograms are too simple for analysis
-- [x] Benchmark is part of result or its own section
-- [x] we dont understand the need for a sepearte discussion section, why is it not part of result?
-- [x] project does not consider population sizes, farming area, or other socioeconomic factors while exploring the data.
-
 [![Check Report](https://github.com/cybertraining-dsc/fa20-523-326/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-326/actions)
 [![Status](https://github.com/cybertraining-dsc/fa20-523-326/workflows/Status/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-326/actions)
-Status: in progress
+Status: final
 
 
-Gangaprasad Shahapurkar, fa20-523-326, [Edit](https://github.com/cybertraining-dsc/fa20-523-326/blob/main/project/project.md)
+Gangaprasad Shahapurkar, fa20-523-326, [Edit](https://github.com/cybertraining-dsc/fa20-523-326/blob/main/project/project.md) [Python Notebook](https://github.com/cybertraining-dsc/fa20-523-326/blob/main/project/code/project.ipynb)
 
 {{% pageinfo %}}
 
@@ -70,7 +65,7 @@ Food and Agriculture Organization of United Nation (FAO) publishes worldwide dat
 
 3. [UIDAI Data] (https://uidai.gov.in) [^21]
 
-Unique Identification Authority of India (UIDAI) was created with the objective to issue Unique Identification numbers (UID), named as **Aadhaar**, to all residents of India. Projected population data of 2020 was collected from this source. 
+Unique Identification Authority of India (UIDAI) was created with the objective to issue Unique Identification numbers (UID), named as **Aadhaar**, to all residents of India. Projected population data of 2020 was extracted from this source. 
 
 In addition to above, other demographics information such as area of each state, district count was extracted from OpenStreetMap [^22]. Agricultural zone information was extracted from report of Food and Nutrition Security Analysis, India, 2019 [^23].
 
@@ -86,13 +81,13 @@ Following python libraries were used in overall code development. Before running
 - **NumPy** NumPy is python core library used for scientific computing. Some of the basic functions were used in this project.
 - **Matplotlib** This is a comprehensive library used for static, animated and interactive visualization.
 - **OS** This is another standard library of Python which provides miscellaneous operating system interface functions.
-- **Scikit-learn (Sklearn)**  Robust library that provides efficient tools for machine learning and statistical modeling including.
+- **Scikit-learn (Sklearn)**  Robust library that provides efficient tools for machine learning and statistical modelling.
 - **Seaborn** Python data visualization library based on matplotlib.
 
 
 ### 4.2 Data Processing
 
-The raw data retrieved from the source was in excel format. The data was pre-processed and stored back in csv format for the purpose of this project and to easily process it. This dataset was further processed through various stages via EDA, feature engineering and modelling.
+The raw data retrieved from various sources was in excel or report format. The data was pre-processed and stored back in csv format for the purpose of this project and to easily process it. This dataset was further processed through various stages via EDA, feature engineering and modelling.
 
 #### 4.2.1 EDA 
 
@@ -167,32 +162,95 @@ Data showed that Uttar Pradesh had highest average milk production with in the t
 
 ### 4.3 Modelling
 
-- [x] MISSING
-
 #### 4.3.1 Data Preperation
 
-Data from main dataset and supplementary dataset which is demographics data was merged into one dataset. This dataset was not labelled and it is small dataset. We considered average milk production as our target label for analysis. The rest of the features were divided based on categorical and numerical nature. Our dataset did not had any categorical features except State name which was used as index column so not futher processing was considered. All the features were of numerical nature and all the data points were not on same scale. Hence datapoints were normalized for further processing.
+Data from main dataset and supplementary dataset which is demographics data was merged into one dataset. This dataset was not labelled and it is small dataset. We considered average milk production as our target label for analysis. The rest of the features were divided based on categorical and numerical nature. Our dataset did not had any categorical features except state name which was used as index column so no futher processing was considered for this attribute. All the features were of numerical nature and all the data points were not on same scale. Hence datapoints were normalized for further processing.
 
-#### 4.3.2 Empirical Benchmarking Model & Covariance analysis
+#### 4.3.2 Empirical Benchmarking Model
 
-There are two dominant approach of economic modelling to estimate the production behavior - Empirical Benchmarking and Stochastic Frontier Analysis [^8], [^9]. Empirical Benchmarking is simple modelling method, and it is one of the two dominant approach. This method was used to analyze past 6 years of data points available in the livestock dataset. In this approach milk production data of past 6 years was averaged. Top 10 states with most milk production reported were compared with average of the whole sample. The comparison did not consider all possible characteristics for modelling. The problem analyzed as part of this project was relatively small. 
+There are two dominant approach of economic modelling to estimate the production behavior - Empirical Benchmarking and Stochastic Frontier Analysis [^8], [^9]. Empirical Benchmarking is simple modelling method, and it is one of the two dominant approach. This method was used to analyze past 6 years of data points available in the livestock dataset. In this approach milk production data of past 6 years was averaged. Top 10 states with most milk production reported were compared with average of the whole sample. The problem analyzed as part of this project was relatively small. The comparison did not consider all possible characteristics for modelling. 
 
-In addition Correlation analyses was done with various demographics features available in the dataset. 
+Correlation of target variable with various demographics features available in the dataset was calculated. Table 2 and Table 3 shows the positive and negative coorelation with target variable average milk production respectively. We can notice from Table 2 that average milk production contribution does get affected by number of in-milk animals reported in the particular year census data and their is also factor of climatic conditions affecting the milk production. India is divided into 15 Agro climate zones. Agro zone 6 is Trans-Gangetic Plains region. Indian states Chandigarh, Delhi, Haryana, Punjab, Rajasthan (some parts) falls under this zone. Agricultural development has shown phenomenal growth in overall productivity and in providing better environment for dairy farming in this zone [^24].
+
+**Table 2:** Positive coorelation of target with demographics features
+
++---------------------+------+
+| Feature             |    % |
++=====================+======+
+| avg_milk_production | 1.00 |
++---------------------+------+
+| avg_in_milk         | 0.95 |
++---------------------+------+
+| total_female        | 0.90 |
++---------------------+------+
+| total_male          | 0.71 |
++---------------------+------+
+| agro_climatic_zone6 | 0.50 |
++---------------------+------+ 
+
+**Table 3:** Negative coorelation of target with demographics features
+
++----------------------+-------+
+| Feature              |     % |
++======================+=======+
+| official_area_sqkm   | -0.17 |
++----------------------+-------+
+| agro_climatic_zone2  | -0.19 |
++----------------------+-------+
+| avg_yield_in_milk    | -0.23 |
++----------------------+-------+
+| district_count       | -0.34 |
++----------------------+-------+
+| proj_population_2020 | -0.94 |
++----------------------+-------+
+
+#### 4.3.3 Linear Regression
+
+Our target variable considered was a continous variable. In an attempt to perform dimension reduction, Principal Component Analysis (PCA) was applied to available limited dataset. In the example presented, an pipeline was constructed that had dimension reduction followed by Linear regression classifier. Grid search cross validation was applied (GridSearchCV) to find the best parameters and score. Linear regression was applied with default parameter settings whereas parameter range was passed for PCA. Below is snapshot of pipeline implemented.
+
+```python
+# Define a pipeline to search for the best combination of PCA truncation
+# and classifier regularization.
+pca = PCA()
+
+# Linear Regression without parameters
+linear = LinearRegression()
+
+full_pipeline_with_predictor = Pipeline([
+        ("preparation", num_pipeline),
+        ("pca",pca),
+        ("linear", linear)
+    ])
+
+# Parameters of pipelines:
+param_grid = {
+    'pca__n_components': [5, 15, 30, 45, 64]
+}
+```
 
 ## 5. Results
 
-Based on simple Empirical Benchmarking Analysis and trends noticed in data it appears that it is possible to increase production past currently attainable yields. The current scale of the yield does indicate that, leading states have best breeds of buffalos. Different methods of analyzing yield gaps can be combined to give estimates of attainable yields. It will also help to evaluate possible interventions to increase production and profits.
+Based on simple Empirical Benchmarking Analysis and trends noticed in data it appears that it is possible to increase production past currently attainable yields (see Figure 7). The current scale of the yield does indicate that, leading states have best breeds of buffalos. Different methods of analyzing yield gaps can be combined to give estimates of attainable yields. It will also help to evaluate possible interventions to increase production and profits.
 
 ![TOP 10 States](https://github.com/cybertraining-dsc/fa20-523-326/raw/main/project/images/avgmilkproduction.png)
 
-**Figure 6:** Average milk production top 10 state with benchmark
+**Figure 7:** Average milk production top 10 state with benchmark
 
+The best parameter came out of the pipeline implemented are highlighted here. The results were not promising due the limited dataset so further experimentation was not attempted, but one thing was noticed that cross validated score came out to 0.28 and dimension reduction to 5 components.
+
+```python
+Best parameter (CV score=0.282):
+{'pca__n_components': 5}
+
+PCA(copy=True, iterated_power='auto', n_components=None, random_state=None,
+    svd_solver='auto', tol=0.0, whiten=False) 
+```
 
 ![COV Analysis](https://github.com/cybertraining-dsc/fa20-523-326/raw/main/project/images/covariance.png)
 
-**Figure 7:** Covariance Heat Map
+**Figure 8:** Covariance Heat Map
 
-The biggest probable limitation here was availability of good quality data. Correct relation of census data with other socioeconomic factors like population information, climate information, agriculture information could not be established as part of this project since the data would not be matched to satisfactory level and covariate analysis results would be inconsistent due to nature of rollup census data at state level. It would have been possible to conduct the analysis at finer level. Our analysis had to be done state level rather than at district level or specific area.
+We were able to calculate correlation of census data with other socioeconomic factors like population information, climate information (see Figure 8). The biggest probable limitation here was availability of good quality data. It would have been possible to conduct the analysis at finer level if more granular level data would have been available. Our analysis had to be done state level rather than at district level or specific area.
 
 ## 6. Conclusion
 
@@ -250,3 +308,5 @@ The author would like to thank Dr. Gregor Von Laszewski, Dr. Geoffrey Fox, and t
 [^22]: OpenStreetMap, Accessed: Nov. 2020, <https://wiki.openstreetmap.org/wiki/Main_Page>
 
 [^23]: Food and Nutrition Security Analysis, India, 2019, Accessed: Nov. 2020, <http://mospi.nic.in/sites/default/files/publication_reports/document%281%29.pdf>
+
+[^24]: Farm Mechanization-Department of Agriculture and Cooperation, India, Accessed: Nov. 2020, <http://farmech.gov.in/06035-04-ACZ6-15052006.pdf>
