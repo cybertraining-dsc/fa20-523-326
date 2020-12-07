@@ -132,7 +132,7 @@ Figure 3 shows top 10 states from livestock census having total number of buffal
 
 There were greater number of female buffaloes reported in country (80%) compared to male buffalo breeds.
 
-![Milk Production Share](https://github.com/cybertraining-dsc/fa20-523-326/raw/main/project/images/buffaloeshare.png)
+![Milk Production Share](https://github.com/cybertraining-dsc/fa20-523-326/raw/main/project/images/buffaloshare.png)
 
 **Figure 4:** Buffalo breeds ratio by male and female 
 
