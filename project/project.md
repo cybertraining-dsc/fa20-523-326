@@ -1,4 +1,16 @@
-# Analysis of Future of Buffalo Breeds and Milk Production Growth in India
+---
+date: 2021-03-15
+title: Analysis of Future of Buffalo Breeds and Milk Production Growth in India
+linkTitle: Milk Production
+tags: ["project", "ai", "environment", "finance"]
+description: Analysis of Future of Buffalo Breeds and Milk Production Growth in India
+author: Gangaprasad Shahapurkar
+resources:
+- src: "**.{png,jpg}"
+  title: "Image #:counter"
+---
+
+# 
 
 [![Check Report](https://github.com/cybertraining-dsc/fa20-523-326/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-326/actions)
 [![Status](https://github.com/cybertraining-dsc/fa20-523-326/workflows/Status/badge.svg)](https://github.com/cybertraining-dsc/fa20-523-326/actions)
