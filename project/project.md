@@ -3,7 +3,7 @@ date: 2021-03-15
 title: Analysis of Future of Buffalo Breeds and Milk Production Growth in India
 linkTitle: Milk Production
 tags: ["project", "ai", "environment", "finance"]
-description: Analysis of Future of Buffalo Breeds and Milk Production Growth in India
+description: "Water buffalo (**Bubalus bubalis**) is also called *Domestic Water Buffalo* or *Asian Water Buffalo*. It is large bovid originating in Indian subcontinent, Southeast Asia, and China and today found in other regions of world - Europe, Australia, North America, South America and some African countries. There are two extant types recognized based on morphological and behavioral criteria: 1. River Buffalo - Mostly found in Indian subcontinent and further west to the Balkans, Egypt, and Italy. 2. Swamp Buffalo - Found from west of Assam through Southeast Asia to the Yangtze valley of China in the east. India is the largest milk producer and consumer compared to other countries in the world and stands unique in terms of the largest share of milk being produced coming from buffaloes. The aim of this academic project is to study the livestock census data of buffalo breeds in India and their milk production using Empirical Benchmarking analysis method at state level. Looking at the small sample of data, our analysis indicates that we have been seeing increasing trends in past few years in livestock and milk production but there are considerable opportunities to increase production using combined interventions."
 author: Gangaprasad Shahapurkar
 resources:
 - src: "**.{png,jpg}"
