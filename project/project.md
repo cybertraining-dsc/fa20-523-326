@@ -22,6 +22,7 @@ Gangaprasad Shahapurkar, fa20-523-326, [Edit](https://github.com/cybertraining-d
 
 {{% pageinfo %}}
 
+
 ## Abstract
 
 Water buffalo (**Bubalus bubalis**) is also called *Domestic Water Buffalo* or *Asian Water Buffalo*. It is large bovid originating in Indian subcontinent, Southeast Asia, and China and today found in other regions of world - Europe, Australia, North America, South America and some African countries. There are two extant types recognized based on morphological and behavioral criteria:
